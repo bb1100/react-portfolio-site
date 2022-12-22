@@ -1,0 +1,79 @@
+.about-section {
+  width: 80vw;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media(">=phone", "<lgphone") {
+    flex-direction: column-reverse;
+  }
+
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column-reverse;
+  }
+
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content {
+    width: 60%;
+
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 20px;
+
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+
+    p {
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+  }
+
+  .image-wrapper {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    img {
+      padding: 10px;
+      border: 1px solid #bbb;
+      border-radius: 50%;
+      width: calc(60% - 20px);
+      height: auto;
+    }
+  }
+}

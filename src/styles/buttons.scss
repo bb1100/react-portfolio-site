@@ -1,0 +1,49 @@
+.arrow-btn {
+  position: absolute;
+  bottom: 5rem;
+  margin: 10px 0;
+  padding: 0;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 3rem;
+  animation: bounce 4s ease-out infinite;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.primary-btn {
+  letter-spacing: 0.3em;
+  margin: 10px 0;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  // border-bottom: 1px solid white;
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btn {
+  margin: 10px 0;
+  padding: 0.25rem 0.5rem;
+  background-color: #eee;
+  color: gray;
+  border: 0;
+  text-decoration: none;
+
+  &:hover {
+    background-color: gray;
+    color: white;
+  }
+}
