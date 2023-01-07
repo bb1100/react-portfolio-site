@@ -1,12 +1,21 @@
 import React from 'react'
 
 // import all images and videos
-import pic from "./images/balraj.jpg";
+import pic from "./images/snap-avatar.jpg";
 import project1 from "./images/work1.jpg";
 import project2 from "./images/work2.jpg";
 import project3 from "./images/work3.jpg";
+import project4 from "./images/work4.png";
+import project5 from "./images/work5.png";
+import project6 from "./images/work6.png";
 import codepen1 from "./images/codepen1.jpg";
-import Icon from "./images/icons/unreal.png";
+import codepen2 from "./images/codepen2.png";
+import codepen3 from "./images/codepen3.png";
+import Spark from "./images/icons/spark.png";
+import Lens from "./images/icons/lens.png";
+import EffectHouse from "./images/icons/effectHouse.png";
+import Unity from "./images/icons/unity.png";
+import Unreal from "./images/icons/unreal.png";
 
 
 export const yourData = {
@@ -25,31 +34,60 @@ export const yourData = {
   projects: [
     {
       videoThumb: project1,
-      videoTitle: "Project Title",
+      videoTitle: "Glamour x Willow x TikTok Cover",
       paragraph:
         <>
-          <p>Description</p>
+          <p>Glamour UK TikTok cover effect made with Effect House. Inclusive makeup and procedurally animated gems.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775340965?h=825942e541?amp;loop=1",
-      projectLink: "http://google.com",
+      projectLink: "https://www.glamourmagazine.co.uk/article/balraj-bains-interview",
     },
     {
       videoThumb: project2,
-      videoTitle: "Project Title",
+      videoTitle: "Garden Museum Installation",
       paragraph:
         <>
-          <p>Description</p>
+          <p>Plane tracking magical tree made with Meta Spark. Scripted animations and custom render pipeline poisson blurs.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775356208?h=60e613c2f4?amp;loop=1",
     },
     {
       videoThumb: project3,
-      videoTitle: "Project Title",
+      videoTitle: "Metal Nails",
       paragraph:
         <>
-          <p>Description</p>
+          <p>Finger tracking in Lens Studio. Custom hand gesture creation with JavaScript. Nails designed and modelled in Blender.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775359980?h=e74225c983?amp;loop=1",
+    },
+    {
+      videoThumb: project4,
+      videoTitle: "Dream Pod",
+      paragraph:
+        <>
+          <p>Relaxing raymarching shader with PBR world particles. Shader's shape animates to the user's Instagram track of choice. Made with Meta Spark and SparkSL.</p>
+          <p>Video by Manuel Borrero</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775361868?h=f82d60529b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      videoThumb: project5,
+      videoTitle: "Maybelline Lash Generator",
+      paragraph:
+        <>
+          <p>Multiple rounds scripted game to provide randomised mascara products and matching label, audio, makeup and immersive shaders. Tap to restart the game. Made with Meta Spark and Blender.</p>
+          <p>Video by Panta X Rhei</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/777518332?h=04dc71f533&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      videoThumb: project6,
+      videoTitle: "Creators Week Wearable",
+      paragraph:
+        <>
+          <p>Meta @Creators digital swag for the in person events week using the exclusive Instagram brand gradient for a future fashion piece. Optical flow and head movement controls mist emission. Shaders to map the gradient to the glasses.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775346908?h=af5a829f42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
     // copy section to add more projects
     // {
@@ -66,29 +104,29 @@ export const yourData = {
   // ----------------------------------------------------// * * * * * * * * * *
   // ----------------------------------------------------
   // Promotion Section -----------------------------
-  promotionHeading: "Code",
+  promotionHeading: "Creative Code",
   promotionPara:
     <>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis placerat quam non mattis. Mauris non ultrices tortor. Mauris tincidunt ligula ut est aliquam hendrerit. Mauris efficitur, nisl quis sollicitudin dapibus, turpis nulla molestie lectus, vel lacinia orci diam a turpis. Mauris egestas lacus arcu. </p>
+      <p>Three.js and P5.js experiments.</p>
     </>,
   codepens: [
     {
-      heading: "project1",
-      paragraph: "description",
+      heading: "Shiny Torus",
+      paragraph: "Three.js and GLSL rotation matrix, PBR Material and Environment Mapping.",
       imgUrl: codepen1,
-      projectLink: "http://codepen.com",
+      projectLink: "https://codepen.io/bb1100/pen/MWrEbZY",
     },
     {
-      heading: "project2",
-      paragraph: "description",
-      imgUrl: codepen1,
-      projectLink: "http://codepen.com",
+      heading: "Fireball",
+      paragraph: "Three.js and GLSL noise and vertex displacement. User input interactivity and light chunks.",
+      imgUrl: codepen2,
+      projectLink: "https://codepen.io/bb1100/pen/QWaMxpo",
     },
     {
-      heading: "project3",
-      paragraph: "description",
-      imgUrl: codepen1,
-      projectLink: "http://codepen.com",
+      heading: "Pastel Party",
+      paragraph: "Explosion of circles bouncing in the window. Made with P5.js.",
+      imgUrl: codepen3,
+      projectLink: "https://codepen.io/bb1100/pen/dyOgyXq",
     },
   ],
   // End Promotion Section -----------------
@@ -97,8 +135,8 @@ export const yourData = {
   // ----------------------------------------------------
   // About Section -------------------------
   aboutParagraph: <>
-    <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing in ethical and social innovation spaces.</p>
-    <p>Specialities include idea development, critical thinking and project management. I continue to expand in the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning new AR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, GLSL, SparkSL, p5.js, Three.js, whilst building with Meta Spark AR, Tikok Effect House and Snap Lens Studio.</p>
+    <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing for immersive experiences and social innovation spaces. Former Technical Artist at Meta Reality Labs working on Spark AR.</p>
+    <p>Specialities include idea development, critical thinking and project management. I continue to expand in the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning new AR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, GLSL, SparkSL, p5.js, Three.js, whilst building with Meta Spark AR, TikTok Effect House, Snap Lens Studio.</p>
   </>,
   aboutImage: pic,
   //   End About Section ---------------------
@@ -109,28 +147,46 @@ export const yourData = {
   skills: [
     {
       // Import Icons from the top and add name here
-      img: Icon,
+      img: Spark,
+      title: "Meta Spark",
+      para:
+        "Official Meta Spark Community Expert. Creative direction, Asynchronous JavaScript, TypeScript, SparkSL, Optimisation and Patch Editor.",
+      // if you have a skills certificate, link to it
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: Lens,
+      title: "Lens Studio",
+      para:
+        "Official Snap Lens Network Creator. Creative Direction, JavaScript, Visual Scripting, Material Editor, VFX.",
+      // if you have a skills certificate, link to it
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: EffectHouse,
+      title: "Effect House",
+      para:
+        "Early Beta Effect House Adopter. Creative Direction, Viral Effects, Visual Scripting, Asset Generation.",
+      // if you have a skills certificate, link to it
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: Unity,
       title: "Unity",
       para:
-        "Deets on my skills in Unity",
+        "Unity learning in progress...",
       // if you have a skills certificate, link to it
       url: ""
     },
     {
       // Import Icons from the top and add name here
-      img: Icon,
+      img: Unreal,
       title: "Unreal Engine",
       para:
-        "Deets on my skills in Unreal Engine",
-      // if you have a skills certificate, link to it
-      url: ""
-    },
-    {
-      // Import Icons from the top and add name here
-      img: Icon,
-      title: "Javascript",
-      para:
-        "Deets on my skills in Javascript",
+        "Unreal Engine 5 learning in progress...",
       // if you have a skills certificate, link to it
       url: ""
     },
@@ -157,7 +213,7 @@ export const yourData = {
     // {
     //   // img: facebookIcon,
     //   title: "Instagram AR Effects",
-    //   url: "https://www.facebook.com/sparkarhub/portfolios/ig/balraj_bains/",
+    //   url: "https://www.facebook.com/sparkarhub/portfolios/ig/hellobeyondinc/",
     // },
     // {
     //   // img: lensIcon,

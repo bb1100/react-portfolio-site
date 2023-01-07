@@ -11,7 +11,7 @@ const Promotion = () => {
           <Fade>
             <h1>{yourData.promotionHeading}</h1>
           </Fade>
-          {/* <p>{yourData.promotionPara}</p> */}
+          <p>{yourData.promotionPara}</p>
 
           <div className="grid promo">
             {yourData.codepens.map((item, index) => (

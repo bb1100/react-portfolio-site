@@ -12,8 +12,15 @@
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: calc(1.5rem + 1vw);
     line-height: 20px;
+  }
+
+  p {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    text-align: center;
   }
 
   .grid {
@@ -30,10 +37,11 @@
 
     .modal-thumbnails {
       appearance: none;
-      border: 0;
       padding: 0;
       cursor: pointer;
       position: relative;
+      background-color: white;
+      border: none;
 
       img {
         width: 100%;
@@ -54,7 +62,6 @@
         cursor: pointer;
         background-image: url(../images/icons/play_circle.svg);
         background-size: contain;
-
       }
     }
   }

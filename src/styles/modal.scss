@@ -50,6 +50,17 @@
 .modal-content {
   display: flex;
   justify-content: center;
+  text-align: left;
+
+  @include media(">=phone", "<tablet") {
+    flex-direction: column;
+  }
+
+}
+
+p {
+  min-width: 200px;
+  text-align: left;
 }
 
 .modal-close-button {

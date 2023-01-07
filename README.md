@@ -26,6 +26,10 @@ $ yarn
 
 #Start's development server
 $ gatsby develop
+
+#Run locally
+$ npm start
+#open http://localhost:8000 in browser
 ```
 
 ## Personalize

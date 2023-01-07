@@ -5,29 +5,40 @@
   flex-direction: column;
   align-items: center;
   h1 {
-    font-size: 3rem;
+    font-size: calc(1.5rem + 1vw);
     line-height: 20px;
   }
 
   .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
+    
+    
+    //place-items: center;
+    //grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
-    grid-gap: 50px;
+    //grid-gap: 50px;
     @include media(">=phone", "<lgphone") {
-      grid-template-columns: 1fr;
+      //grid-template-columns: 1fr;
     }
     @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
+      //grid-template-columns: 1fr;
     }
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr 1fr;
+      //grid-template-columns: 1fr 1fr;
     }
     .skill {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
+      min-width: 15rem;
+      max-width: 16rem;
       h3 {
         margin: 15px 0 5px;
       }

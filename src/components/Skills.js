@@ -8,7 +8,7 @@ const Skills = () => {
       <div className="container">
         <div className="skills-container">
           <Fade>
-            <h1>Certifications</h1>
+            <h1>AR Engines</h1>
           </Fade>
           <div className="skills-grid">
             {yourData.skills.map((skill, index) => (
