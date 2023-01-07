@@ -18,7 +18,7 @@ const Video = ({ videoSrcURL, videoTitle, paragraph, projectLink }) => {
       />
       <div className="video-content">
         <h2 className="header">{videoTitle}</h2>
-        <p className="text">{paragraph}</p>
+        {paragraph}
         {projectLink ?
           <a
             href={projectLink}

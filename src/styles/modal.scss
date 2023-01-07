@@ -7,6 +7,10 @@
   background-color: white;
   overflow: hidden;
 
+  @include media("<tablet") {
+    overflow: scroll;
+  }
+
   &.open {
     display: block;
     z-index: 1040;
@@ -52,7 +56,7 @@
   justify-content: center;
   text-align: left;
 
-  @include media(">=phone", "<tablet") {
+  @include media("<tablet") {
     flex-direction: column;
   }
 

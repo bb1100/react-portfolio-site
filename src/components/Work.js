@@ -18,7 +18,7 @@ const Work = () => {
         <div className="work-wrapper">
           <Fade>
             <h1>Work</h1>
-            <p>A selection of Augmented Reality projects. Click on each video to see more.</p>
+            <p class="work-headline">A selection of Augmented Reality projects. Click on each video to see more.</p>
           </Fade>
           <div className="grid work">
             {yourData.projects.map((project, index) => (
