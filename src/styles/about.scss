@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @include media(">=phone", "<lgphone") {
+  @include media("<lgphone") {
     flex-direction: column-reverse;
   }
 
@@ -21,15 +21,7 @@
   .content {
     width: 60%;
 
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-
-    @include media(">=tablet", "<desktop") {
+    @include media("<desktop") {
       width: 100%;
     }
 
@@ -37,14 +29,14 @@
       font-size: calc(1.5rem + 1vw);
       line-height: 20px;
 
-      @include media(">=phone", "<desktop") {
+      @include media("<desktop") {
         text-align: center;
         padding-bottom: 1rem;
       }
     }
 
     p {
-      @include media(">=tablet", "<desktop") {
+      @include media("<desktop") {
         text-align: center;
       }
     }
@@ -58,17 +50,7 @@
     justify-content: center;
     overflow: hidden;
 
-    @include media(">=phone", "<lgphone") {
-      width: 50%;
-      margin-bottom: 1.5em;
-    }
-
-    @include media(">=lgphone", "<tablet") {
-      width: 50%;
-      margin-bottom: 1.5em;
-    }
-
-    @include media(">=tablet", "<desktop") {
+    @include media("<desktop") {
       width: 50%;
       margin-bottom: 1.5em;
     }

@@ -56,7 +56,7 @@ export const yourData = {
       videoTitle: "Metal Nails",
       paragraph:
         <>
-          <p>Finger tracking in Lens Studio. Custom hand gesture creation with JavaScript. Nails designed and modelled in Blender.</p>
+          <p>Viral finger tracking effect in Lens Studio. Custom hand gesture creation with JavaScript. Nails designed and modelled in Blender.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775359980?h=e74225c983?amp;loop=1",
     },
@@ -112,7 +112,7 @@ export const yourData = {
   codepens: [
     {
       heading: "Shiny Torus",
-      paragraph: "Three.js and GLSL rotation matrix, PBR Material and Environment Mapping.",
+      paragraph: "Three.js and GLSL rotation matrix, PBR Material, Lighting and Environment Mapping.",
       imgUrl: codepen1,
       projectLink: "https://codepen.io/bb1100/pen/MWrEbZY",
     },
@@ -136,7 +136,7 @@ export const yourData = {
   // About Section -------------------------
   aboutParagraph: <>
     <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing for immersive experiences and social innovation spaces. Former Technical Artist at Meta Reality Labs working on Spark AR.</p>
-    <p>Specialities include idea development, critical thinking and project management. I continue to expand in the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning new AR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, GLSL, SparkSL, p5.js, Three.js, whilst building with Meta Spark AR, TikTok Effect House, Snap Lens Studio.</p>
+    <p>Specialities include idea development, critical thinking and project management. I continue to expand in the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning new AR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, GLSL, SparkSL, P5.js, Three.js, whilst building with Meta Spark AR, TikTok Effect House, Snap Lens Studio.</p>
   </>,
   aboutImage: pic,
   //   End About Section ---------------------

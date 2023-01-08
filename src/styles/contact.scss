@@ -18,8 +18,8 @@
     font-size: 1.5rem;
     overflow: hidden;
 
-    @include media(">=phone", "<lgphone") {
-      display: none;
+    @include media("<lgphone") {
+      font-size: 0.8rem;
     }
 
     @include media(">=lgphone", "<tablet") {
