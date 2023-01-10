@@ -8,7 +8,7 @@ import project3 from "./images/work3.jpg";
 import project4 from "./images/work4.png";
 import project5 from "./images/work5.png";
 import project6 from "./images/work6.png";
-import codepen1 from "./images/codepen1.jpg";
+import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
 import codepen3 from "./images/codepen3.png";
 import Spark from "./images/icons/spark.png";
@@ -111,8 +111,8 @@ export const yourData = {
     </>,
   codepens: [
     {
-      heading: "Shiny Torus",
-      paragraph: "Three.js and GLSL rotation matrix, PBR Material, Lighting and Environment Mapping.",
+      heading: "Reflective Horse",
+      paragraph: "Three.js and GLSL GLFT import, rotation matrix, PBR Material, Lighting and Environment Mapping.",
       imgUrl: codepen1,
       projectLink: "https://codepen.io/bb1100/pen/MWrEbZY",
     },

@@ -38,7 +38,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/favicon_io/favicon-32x32.png`, // Favicon: This path is relative to the root of the site.
+        icon: `src/images/favicon_io/favicon-32x32.png` // Favicon: This path is relative to the root of the site.
       },
     },
   ],

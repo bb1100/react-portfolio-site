@@ -8,10 +8,12 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Promotion from "../components/Promotion";
 import Contact from "../components/Contact";
+import Gallery from "../components/Gallery";
 
 const IndexPage = () => (
   <Layout>
     <Navbar />
+    <Gallery />
     <Work />
     <Promotion />
     <About />
