@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 // Components
 import Navbar from "../components/Navbar";
-import Work from "../components/Work";
+// import Work from "../components/Work";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Promotion from "../components/Promotion";
@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <Navbar />
     <Gallery />
-    <Work />
+    {/* <Work /> */}
     <Promotion />
     <About />
     <Skills />

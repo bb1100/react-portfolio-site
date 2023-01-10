@@ -1,20 +1,24 @@
 import React from 'react';
+
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import Arrow from './Arrow.js';
 import { yourData } from "../yourdata";
 
+
 // How to add items to this gallery?
+const getId = index => `Project ${yourData.projects.indexOf()}`;
+
 const getItems = () =>
   Array(20)
     .fill(0)
-    .map((_, ind) => ({ id: `element-${ind}` }));
+    .map((_, index) => ({ id: `element-${index}` }));
 
 function Gallery() {
   const [items, setItems] = React.useState(getItems);
   const [selected, setSelected] = React.useState([]);
   const [position, setPosition] = React.useState(0);
 
-  const isItemSelected = (id) => !!selected.find((el) => el === id);
+  const isItemSelected = (id) => !!selected.findex((el) => el === id);
 
   const handleClick =
     (id) =>
@@ -30,13 +34,13 @@ function Gallery() {
 
   return (
     <ScrollMenu className="gallery" LeftArrow={LeftArrow} RightArrow={RightArrow}>
-      {items.map(({ id }) => (
+      {items.map((project, index) => (
         <Card
-          itemId={id} // NOTE: itemId is required for track items
-          title={id}
-          key={id}
-          onClick={handleClick(id)}
-          selected={isItemSelected(id)}
+          itemId={project.index} // NOTE: itemId is required for track items
+          title={project.videoTitle}
+          key={project.index}
+          onClick={handleClick(index)}
+          selected={isItemSelected(index)}
         />
       ))}
     </ScrollMenu>
@@ -73,7 +77,7 @@ function Card({ onClick, selected, title, itemId }) {
       style={{
         width: '160px',
       }}
-      tabIndex={0}
+      tabindex={0}
     >
       <div className="card">
         <div>{title}</div>
