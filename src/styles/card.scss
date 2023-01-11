@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 5%;
+  border-radius: 1rem;
 
   @include media("<tablet") {
     height: 320px;
