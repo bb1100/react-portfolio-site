@@ -37,10 +37,11 @@
 .btn {
   margin: 10px 0;
   padding: 0.25rem 0.5rem;
-  background-color: #eee;
-  color: gray;
+  background-color: rgb(131, 110, 160);
+  color: rgb(255, 255, 255);
   border: 0;
   text-decoration: none;
+  border-radius: 0.5rem;
 
   &:hover {
     background-color: gray;

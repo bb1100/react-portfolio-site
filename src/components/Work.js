@@ -12,6 +12,17 @@ const Work = () => {
     }
     setToggled(index);
   }
+
+  const slideLeft = () => {
+    let slider = document.getElementById('slider');
+    slider.scrollLeft = slider.scrollLeft - 500;
+  }
+
+  const slideRight = () => {
+    let slider = document.getElementById('slider');
+    slider.scrollLeft = slider.scrollLeft + 500;
+  }
+  
   return (
     <div className="section" id="work" tabIndex={-1}>
       <div className="container">
@@ -21,7 +32,8 @@ const Work = () => {
             <p className="work-headline">A selection of Augmented Reality projects. Click on each video to see more.</p>
           </Fade>
           <div className="grid-container">
-            <div className="grid work">
+            <div className="arrows left" role="button" aria-label="arrow left" tabindex={0} onClick={slideLeft} onKeyDown={slideLeft}></div>
+            <div className="grid work" id="slider">
               {yourData.projects.map((project, index) => (
                 <>
                   <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
@@ -34,8 +46,7 @@ const Work = () => {
                 </>
               ))}
             </div>
-            <div className="arrows left"></div>
-            <div className="arrows right"></div>
+            <div className="arrows right" role="button" aria-label="arrow right" tabindex={0} onClick={slideRight} onKeyDown={slideRight}></div>
           </div>
         </div>
       </div>
