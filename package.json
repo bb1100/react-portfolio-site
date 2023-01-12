@@ -1,5 +1,6 @@
 {
   "name": "blraj-react-site",
+  "homepage": "https://bb1100.github.io/react-portfolio-site",
   "private": true,
   "description": "Portfolio website For Balraj Bains",
   "version": "0.1.0",
@@ -20,6 +21,7 @@
     "sass": "^1.56.1"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.8.0"
   },
   "engines": {
@@ -30,6 +32,8 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
