@@ -29,7 +29,7 @@ const Work2 = () => {
           <div className="grid-container">
             <div className="arrows left" role="button" aria-label="arrow left" tabindex={0} onClick={slideLeft} onKeyDown={slideLeft}></div>
             <div className="grid work" id="slider2">
-              {yourData.projects.map((project, index) => (
+              {yourData.projects2.map((project, index) => (
                 <>
                   <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
                     <img
@@ -45,7 +45,7 @@ const Work2 = () => {
           </div>
         </div>
       </div>
-      {yourData.projects.map((project, index) => (
+      {yourData.projects2.map((project, index) => (
         <>
           <Modal
             key={project.index}
