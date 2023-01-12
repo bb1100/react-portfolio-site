@@ -8,9 +8,17 @@ import project3 from "./images/work3.jpg";
 import project4 from "./images/work4.png";
 import project5 from "./images/work5.png";
 import project6 from "./images/work6.png";
+import project7 from "./images/work7.png";
+import project8 from "./images/work8.png";
+import project9 from "./images/work9.png";
+import project10 from "./images/work10.png";
+import project11 from "./images/work11.png";
+import project12 from "./images/work12.png";
+
 import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
 import codepen3 from "./images/codepen3.png";
+
 import Spark from "./images/icons/spark.png";
 import Lens from "./images/icons/lens.png";
 import EffectHouse from "./images/icons/effectHouse.png";
@@ -33,6 +41,7 @@ export const yourData = {
   // Work Section ------------------------
   projects: [
     {
+      id: 0,
       videoThumb: project1,
       videoTitle: "Glamour x Willow x TikTok Cover",
       paragraph:
@@ -43,6 +52,7 @@ export const yourData = {
       projectLink: "https://www.glamourmagazine.co.uk/article/balraj-bains-interview",
     },
     {
+      id: 1,
       videoThumb: project2,
       videoTitle: "Garden Museum Installation",
       paragraph:
@@ -52,6 +62,7 @@ export const yourData = {
       videoSrcURL: "https://player.vimeo.com/video/775356208?h=60e613c2f4?amp;loop=1",
     },
     {
+      id: 2,
       videoThumb: project3,
       videoTitle: "Metal Nails",
       paragraph:
@@ -61,6 +72,7 @@ export const yourData = {
       videoSrcURL: "https://player.vimeo.com/video/775359980?h=e74225c983?amp;loop=1",
     },
     {
+      id: 3,
       videoThumb: project4,
       videoTitle: "Dream Pod",
       paragraph:
@@ -71,6 +83,7 @@ export const yourData = {
       videoSrcURL: "https://player.vimeo.com/video/775361868?h=f82d60529b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
     {
+      id: 4,
       videoThumb: project5,
       videoTitle: "Maybelline Lash Generator",
       paragraph:
@@ -81,6 +94,7 @@ export const yourData = {
       videoSrcURL: "https://player.vimeo.com/video/777518332?h=04dc71f533&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
     {
+      id: 5,
       videoThumb: project6,
       videoTitle: "Creators Week Wearable",
       paragraph:
@@ -88,6 +102,69 @@ export const yourData = {
           <p>Meta @Creators digital swag for the in person events week using the exclusive Instagram brand gradient for a future fashion piece. Optical flow and head movement controls mist emission. Shaders to map the gradient to the glasses.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775346908?h=af5a829f42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 6,
+      videoThumb: project7,
+      videoTitle: "Zodiac Soulmate Quiz",
+      paragraph:
+        <>
+          <p>Pastel magic themed, Effect House challenge winning randomiser quiz on Tiktok. Procedurally animated rotations and colour transition on answer reveal.</p>
+          <p>Video by lala_sadii</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775364856?h=4b9d587bd5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 7,
+      videoThumb: project8,
+      videoTitle: "Identity 2.0 Exhibition",
+      paragraph:
+        <>
+          <p>This Machine is Black explores race and technology and surreal cyber future identity. The effect usess SDFs, 3D models cusotmised to the face tracker, procedural noise and glow, delay frames, texture distortion, with dynamic text to display the date.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775356092?h=a168a33143&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+      projectLink: "https://identity20.org/thismachineisblack/",
+    },
+    {
+      id: 8,
+      videoThumb: project9,
+      videoTitle: "Heads Up! Videocall Game",
+      paragraph:
+        <>
+          <p>Played on the Ellen Show and on Meta Messenger's blog, made with Nexus, this timed game uses Multipeer to create a multi-pack liveplay in app responsive game. Each user receives a unique 3D costume and results are shown at the end.</p>
+        </>,
+      videoSrcURL: "https://www.youtube-nocookie.com/embed/XpSJE1CNXMo?;allowfullscreen",
+      projectLink: "https://messengernews.fb.com/2021/12/14/play-heads-up-with-your-friends-on-instagram-and-messenger/",
+    },
+    {
+      id: 9,
+      videoThumb: project10,
+      videoTitle: "Latto x Girls Who Code",
+      paragraph:
+        <>
+          <p>Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training young women of colour to code with JavaScript for Spark AR and take part in the design process. Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/786771636?h=7e55e38721&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 10,
+      videoThumb: project11,
+      videoTitle: "Immersive Future World",
+      paragraph:
+        <>
+          <p>Our Future collaboration world and self facing project. Featuring an underwater world with 3D animated models, sunbeam SDFs, wave distortion shader, noise detail and a face oxygen mask. Team project with Katya Pavlenko.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/780922300?h=6935fed973&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 11,
+      videoThumb: project12,
+      videoTitle: "Break Free to Fly",
+      paragraph:
+        <>
+          <p>A team Meta x IJM project narrative, following the story of trafficked children to raise awareness of their stories. The journey follows a butterfly from a dark room and breaks through to a safe restoration space.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775357990?h=e176c29a7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
     // copy section to add more projects
     // {

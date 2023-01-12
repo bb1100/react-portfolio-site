@@ -4,6 +4,7 @@ import Seo from "../components/seo";
 // Components
 import Navbar from "../components/Navbar";
 import Work from "../components/Work";
+import Work2 from "../components/Work2";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Promotion from "../components/Promotion";
@@ -13,6 +14,7 @@ const IndexPage = () => (
   <Layout>
     <Navbar />
     <Work />
+    <Work2 />
     <Promotion />
     <About />
     <Skills />
