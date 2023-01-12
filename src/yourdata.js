@@ -130,7 +130,7 @@ export const yourData = {
         <>
           <p>Cyber character with metallic skin shader and voice distortion. Turns the user into a cyborg. 
             Detecting a change in face detection triggers electric flame mode inspired by Cyberpunk 2077 character Lizzie Wizzie. 
-            3d modelscombined with occluders and segmentation and mapped SDF shaders and particles for spatial accuracy.</p>
+            3D models combined with occluders, segmentation, mapped SDF shaders and particles for spatial believability.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/788520699?h=a8a8d6df0c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;loop=1",
     },
