@@ -22,7 +22,7 @@ const Work = () => {
     let slider = document.getElementById('slider');
     slider.scrollLeft = slider.scrollLeft + 500;
   }
-  
+
   return (
     <div className="section" id="work" tabIndex={-1}>
       <div className="container">
@@ -39,7 +39,7 @@ const Work = () => {
                   <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
                     <img
                       src={project.videoThumb}
-                      alt={project.paragraph}
+                      alt={`Thumbnail for "${project.videoTitle}"`}
                       title={project.videoTitle}
                     />
                   </button>
@@ -52,16 +52,17 @@ const Work = () => {
       </div>
       {yourData.projects.map((project, index) => (
         <>
-          <Modal
-            key={project.index}
-            hide={() => toggleAccordion(false)}
-            modalClass={`${toggled === index ? 'open' : 'closed'}`}
-            ariaAttr={`${toggled === index ? 'false' : 'true'}`}
-            videoTitle={project.videoTitle}
-            paragraph={project.paragraph}
-            videoSrcURL={project.videoSrcURL}
-            projectLink={project.projectLink}
-          />
+          {toggled === index &&
+            <Modal
+              key={project.index}
+              hide={() => toggleAccordion(false)}
+              modalClass={`${toggled === index ? 'open' : 'closed'}`}
+              ariaAttr={`${toggled === index ? 'false' : 'true'}`}
+              videoTitle={project.videoTitle}
+              paragraph={project.paragraph}
+              videoSrcURL={project.videoSrcURL}
+              projectLink={project.projectLink}
+            />}
         </>
       ))}
     </div>
