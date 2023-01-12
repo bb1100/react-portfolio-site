@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `BALRAJ AR DESIGNER`,
-    description: `Creative technologist with experience in AR, XR, HMDs, product, design, research and writing in ethical and social innovation spaces.`,
+    description: `Creative technologist with experience in AR, XR, HMDs, product and design in immersive and social innovation spaces.`,
     author: `@bethwickerson`,
     siteUrl: `https://blrajreactsitemain.gatsbyjs.io/`,
   },
