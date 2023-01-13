@@ -17,11 +17,11 @@ import project12 from "./images/work12.jpg";
 import project13 from "./images/work13.jpg";
 import project14 from "./images/work14.jpg";
 import project15 from "./images/work15.jpg";
-import project16 from "./images/work16.png";
-import project17 from "./images/work17.png";
-import project18 from "./images/work18.png";
-import project19 from "./images/work19.png";
-import project20 from "./images/work20.png";
+import project16 from "./images/work16.jpg";
+import project17 from "./images/work17.jpg";
+import project18 from "./images/work18.jpg";
+import project19 from "./images/work19.jpg";
+import project20 from "./images/work20.jpg";
 
 import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
