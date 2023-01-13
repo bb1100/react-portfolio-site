@@ -8,7 +8,7 @@ import project3 from "./images/work3.jpg";
 import project4 from "./images/work4.png";
 import project5 from "./images/work5.png";
 import project6 from "./images/work6.png";
-import project7 from "./images/work7.png";
+import project7 from "./images/work7.jpg";
 import project8 from "./images/work8.png";
 import project9 from "./images/work9.png";
 import project10 from "./images/work10.png";
