@@ -33,6 +33,7 @@ const Work2 = () => {
                 <>
                   <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
                     <img
+                      loading="lazy"
                       src={project.videoThumb}
                       alt={`Thumbnail for "${project.videoTitle}"`}
                       title={project.videoTitle}

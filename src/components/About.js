@@ -17,7 +17,7 @@ const About = () => {
             {/* <a className="link" href={cvPDF} target="_blank" rel="noreferrer noopener">Download CV &rsaquo;</a> */}
           </div>
           <div className="image-wrapper">
-            <img src={yourData.aboutImage} alt="about"></img>
+            <img loading="lazy" src={yourData.aboutImage} alt="about"></img>
           </div>
         </div>
       </div>

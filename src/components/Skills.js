@@ -13,7 +13,7 @@ const Skills = () => {
           <div className="skills-grid">
             {yourData.skills.map((skill, index) => (
               <div className="skill" key={index}>
-                <img src={skill.img} alt="css"></img>
+                <img loading="lazy" src={skill.img} alt="css"></img>
                 <h3>{skill.title}</h3>
                 <p>{skill.para} {skill.url ? <a className="link" href={skill.url}>view &rsaquo;</a> : null}</p>
 

@@ -3,6 +3,7 @@ import React from "react";
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
     <div
+      loading="lazy"
       className="card"
       style={{
         backgroundImage:
