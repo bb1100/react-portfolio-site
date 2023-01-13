@@ -5,7 +5,7 @@ import pic from "./images/snap-avatar.jpg";
 import project1 from "./images/work1.jpg";
 import project2 from "./images/work2.jpg";
 import project3 from "./images/work3.jpg";
-import project4 from "./images/work4.png";
+import project4 from "./images/work4.jpg";
 import project5 from "./images/work5.png";
 import project6 from "./images/work6.png";
 import project7 from "./images/work7.jpg";
