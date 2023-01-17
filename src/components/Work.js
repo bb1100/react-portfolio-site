@@ -37,12 +37,14 @@ const Work = () => {
               {yourData.projects.map((project, index) => (
                 <>
                   <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
-                    <img
-                      loading="lazy"
-                      src={project.videoThumb}
-                      alt={`Thumbnail for "${project.videoTitle}"`}
-                      title={project.videoTitle}
-                    />
+                    <Fade>
+                      <img
+                        loading="lazy"
+                        src={project.videoThumb}
+                        alt={`Thumbnail for "${project.videoTitle}"`}
+                        title={project.videoTitle}
+                      />
+                    </Fade>
                   </button>
                 </>
               ))}

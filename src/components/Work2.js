@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./atoms/Modal";
 import { yourData } from "../yourdata";
+import { Fade } from "react-awesome-reveal";
 
 
 const Work2 = () => {
@@ -32,12 +33,14 @@ const Work2 = () => {
               {yourData.projects2.map((project, index) => (
                 <>
                   <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>
-                    <img
-                      loading="lazy"
-                      src={project.videoThumb}
-                      alt={`Thumbnail for "${project.videoTitle}"`}
-                      title={project.videoTitle}
-                    />
+                    <Fade>
+                      <img
+                        loading="lazy"
+                        src={project.videoThumb}
+                        alt={`Thumbnail for "${project.videoTitle}"`}
+                        title={project.videoTitle}
+                      />
+                      </Fade>
                   </button>
                 </>
               ))}
