@@ -61,8 +61,6 @@ const Work2 = () => {
               paragraph={project.paragraph}
               videoSrcURL={project.videoSrcURL}
               projectLink={project.projectLink}
-              frameBorder="0"
-              allowFullScreen
             />}
         </>
       ))}
