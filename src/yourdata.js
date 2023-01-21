@@ -184,7 +184,7 @@ export const yourData = {
             this timed game uses Multipeer to create a multi-pack liveplay in app responsive game.
             Each user receives a unique 3D costume and results are shown at the end.</p>
         </>,
-      videoSrcURL: "https://www.youtube-nocookie.com/embed/XpSJE1CNXMo?;allowfullscreen",
+      videoSrcURL: "https://www.youtube.com/embed/XpSJE1CNXMo",
       projectLink: "https://messengernews.fb.com/2021/12/14/play-heads-up-with-your-friends-on-instagram-and-messenger/",
       isHorizontal: true,
     },
