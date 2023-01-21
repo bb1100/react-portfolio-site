@@ -55,12 +55,17 @@
       margin-bottom: 1.5em;
     }
 
-    img {
+    .about-img {
       padding: 2px;
       border: 4px double rgb(88, 113, 255);
       border-radius: 50%;
       width: calc(60% - 20px);
       height: auto;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }

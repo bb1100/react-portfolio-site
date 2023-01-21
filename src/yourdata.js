@@ -128,14 +128,14 @@ export const yourData = {
       videoTitle: "Too Much Mod",
       paragraph:
         <>
-          <p>Cyber character with metallic skin shader and voice distortion. Turns the user into a cyborg. 
-            Detecting a change in face detection triggers electric flame mode inspired by Cyberpunk 2077 character Lizzie Wizzie. 
+          <p>Cyber character with metallic skin shader and voice distortion. Turns the user into a cyborg.
+            Detecting a change in face detection triggers electric flame mode inspired by Cyberpunk 2077 character Lizzie Wizzie.
             3D models combined with occluders, segmentation, mapped SDF shaders and particles for spatial believability.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/788520699?h=a8a8d6df0c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;loop=1",
     },
-    
-    
+
+
     // copy section to add more projects
     // {
     //   videoThumb: project3,
@@ -155,7 +155,7 @@ export const yourData = {
       videoTitle: "Zodiac Soulmate Quiz",
       paragraph:
         <>
-          <p>Pastel magic themed, Effect House challenge winning randomiser quiz on Tiktok. 
+          <p>Pastel magic themed, Effect House challenge winning randomiser quiz on Tiktok.
             Procedurally animated rotations and colour transition on answer reveal.</p>
           <p>Video by lala_sadii</p>
         </>,
@@ -167,8 +167,8 @@ export const yourData = {
       videoTitle: "Identity 2.0 Exhibition",
       paragraph:
         <>
-          <p>This Machine is Black explores race and technology and surreal cyber future identity. 
-            The effect usess SDFs, 3D models cusotmised to the face tracker, procedural noise and glow, 
+          <p>This Machine is Black explores race and technology and surreal cyber future identity.
+            The effect usess SDFs, 3D models cusotmised to the face tracker, procedural noise and glow,
             delay frames, texture distortion, with dynamic text to display the date.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775356092?h=a168a33143&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
@@ -180,12 +180,13 @@ export const yourData = {
       videoTitle: "Heads Up! Videocall Game",
       paragraph:
         <>
-          <p>Played on the Ellen Show and on Meta Messenger's blog, made with Nexus, 
-            this timed game uses Multipeer to create a multi-pack liveplay in app responsive game. 
+          <p>Played on the Ellen Show and on Meta Messenger's blog, made with Nexus,
+            this timed game uses Multipeer to create a multi-pack liveplay in app responsive game.
             Each user receives a unique 3D costume and results are shown at the end.</p>
         </>,
       videoSrcURL: "https://www.youtube-nocookie.com/embed/XpSJE1CNXMo?;allowfullscreen",
       projectLink: "https://messengernews.fb.com/2021/12/14/play-heads-up-with-your-friends-on-instagram-and-messenger/",
+      isHorizontal: true,
     },
     {
       id: 9,
@@ -194,8 +195,8 @@ export const yourData = {
       paragraph:
         <>
           <p>Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
-             young women of colour to code with JavaScript for Spark AR and take part in the design process. 
-             Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.</p>
+            young women of colour to code with JavaScript for Spark AR and take part in the design process.
+            Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/786771636?h=7e55e38721&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
@@ -205,7 +206,7 @@ export const yourData = {
       videoTitle: "Immersive Future World",
       paragraph:
         <>
-          <p>Our Future collaboration world and self facing project. Featuring an underwater world with 3D animated models, sunbeam SDFs, 
+          <p>Our Future collaboration world and self facing project. Featuring an underwater world with 3D animated models, sunbeam SDFs,
             wave distortion shader, noise detail and a face oxygen mask. Team project with Katya Pavlenko.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/780922300?h=6935fed973&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
@@ -216,77 +217,77 @@ export const yourData = {
       videoTitle: "Break Free to Fly",
       paragraph:
         <>
-          <p>A team Meta x IJM immersive narrative project, following the story of trafficked children to raise awareness of their stories. 
+          <p>A team Meta x IJM immersive narrative project, following the story of trafficked children to raise awareness of their stories.
             The journey follows a butterfly from a dark room and breaks through to a safe restoration space.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775357990?h=e176c29a7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
       projectLink: "https://www.ijm.org/news/meta-partners-ijm-immersive-awareness-campaign",
     },
     {
-    id: 13,
-    videoThumb: project14,
-    videoTitle: "Cyberpunk Makeup",
-    paragraph:
-      <>
-        <p>An audio reactive and makeup effect. SDFs used to generate shapes and hair segmentation texture, 
-          3D models animated with head, screen and dissolve shader animations. 
-          3D necklace modelled and textured with Blender and rigged with a neck occluder. Post processing blur and gradient applied for atmosphere.</p>
-      </>,
-    videoSrcURL: "https://player.vimeo.com/video/780922175?h=58b53c9a5d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
-  },
-  {
-    id: 14,
-    videoThumb: project15,
-    videoTitle: "Evangelion Rei",
-    paragraph:
-      <>
-        <p>Anime character made with custom render pipeline, hair removal, 
-          rigged 3D wig, clips, eyes, moon and blend shapes for face meshes and makeup, custom textures for eyebrows and particles.</p>
-      </>,
-    videoSrcURL: "https://player.vimeo.com/video/780922090?h=d1cf47010e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
-  },
-  {
-    id: 15,
-    videoThumb: project16,
-    videoTitle: "Jellied",
-    paragraph:
-      <>
-        <p>Lens studio custom shader to render the user semi-invisible with fluid texture distortion and segmentation.</p>
-      </>,
-    videoSrcURL: "https://player.vimeo.com/video/775363611?h=382eaea382&badge=0&autopause=0&player_id=0&app_id=58479/embed;loop=1",
-  },
-  {
-    id: 16,
-    videoThumb: project17,
-    videoTitle: "Swiftie",
-    paragraph:
-      <>
-        <p>Body avatar drive comedy effect made with Effect House and Blender, used by BBC Radio 1.</p>
-      </>,
-    videoSrcURL: "https://player.vimeo.com/video/775364444?h=be8611f310&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
-  },
-  {
-    id: 17,
-    videoThumb: project18,
-    videoTitle: "Metal Punk",
-    paragraph:
-      <>
-        <p>Glass refraction spikes with custom render pipeline to render layered meshes within the glass. 
-          Eyebrows lowered interaction to emit nose particles and customised HDRI texture. 
-          Post-processing applied for TV effect and neck tattoo rigged to head rotation.</p>
-      </>,
-    videoSrcURL: "https://player.vimeo.com/video/780922129?h=42544eafef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;loop=1",
-  },
-  {
-    id: 18,
-    videoThumb: project19,
-    videoTitle: "Life in Colour II",
-    paragraph:
-      <>
-        <p>Delay frame with shader code for a gamma corrected rainbow tile effect driven by the user's movement.</p>
-      </>,
-    videoSrcURL: "https://player.vimeo.com/video/780922248?h=c9c03f5f1a&badge=0&autopause=0&player_id=0&app_id=58479/embed;loop=1",
-  },
+      id: 13,
+      videoThumb: project14,
+      videoTitle: "Cyberpunk Makeup",
+      paragraph:
+        <>
+          <p>An audio reactive and makeup effect. SDFs used to generate shapes and hair segmentation texture,
+            3D models animated with head, screen and dissolve shader animations.
+            3D necklace modelled and textured with Blender and rigged with a neck occluder. Post processing blur and gradient applied for atmosphere.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/780922175?h=58b53c9a5d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 14,
+      videoThumb: project15,
+      videoTitle: "Evangelion Rei",
+      paragraph:
+        <>
+          <p>Anime character made with custom render pipeline, hair removal,
+            rigged 3D wig, clips, eyes, moon and blend shapes for face meshes and makeup, custom textures for eyebrows and particles.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/780922090?h=d1cf47010e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 15,
+      videoThumb: project16,
+      videoTitle: "Jellied",
+      paragraph:
+        <>
+          <p>Lens studio custom shader to render the user semi-invisible with fluid texture distortion and segmentation.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775363611?h=382eaea382&badge=0&autopause=0&player_id=0&app_id=58479/embed;loop=1",
+    },
+    {
+      id: 16,
+      videoThumb: project17,
+      videoTitle: "Swiftie",
+      paragraph:
+        <>
+          <p>Body avatar drive comedy effect made with Effect House and Blender, used by BBC Radio 1.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/775364444?h=be8611f310&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
+    {
+      id: 17,
+      videoThumb: project18,
+      videoTitle: "Metal Punk",
+      paragraph:
+        <>
+          <p>Glass refraction spikes with custom render pipeline to render layered meshes within the glass.
+            Eyebrows lowered interaction to emit nose particles and customised HDRI texture.
+            Post-processing applied for TV effect and neck tattoo rigged to head rotation.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/780922129?h=42544eafef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;loop=1",
+    },
+    {
+      id: 18,
+      videoThumb: project19,
+      videoTitle: "Life in Colour II",
+      paragraph:
+        <>
+          <p>Delay frame with shader code for a gamma corrected rainbow tile effect driven by the user's movement.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/780922248?h=c9c03f5f1a&badge=0&autopause=0&player_id=0&app_id=58479/embed;loop=1",
+    },
   ],
   // End Work Section -----------------------
   // ----------------------------------------------------// * * * * * * * * * *

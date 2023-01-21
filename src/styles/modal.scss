@@ -49,6 +49,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 99;
 }
 
 .modal-content {
@@ -61,16 +62,20 @@
     flex-wrap: wrap;
   }
 
+  &.one-column {
+    flex-direction: column;
+  }
+
 }
 
 .modal-close-button {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1;
   color: #000;
   opacity: .3;
   cursor: pointer;
   border: none;
-  padding: 2rem;
+  padding: 1.5rem;
   background: none;
   appearance: none;
 }
