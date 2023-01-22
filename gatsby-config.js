@@ -41,5 +41,11 @@ module.exports = {
         icon: `src/images/favicon_io/favicon-32x32.png` // Favicon: This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-gatsby-cloud`,
+      options: {
+        mergeSecurityHeaders: false,
+      },
+    },
   ],
 }
