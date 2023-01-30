@@ -73,7 +73,7 @@
       background-color: rgba(168, 158, 236, 0.1);
       border: none;
       border-radius: 1rem;
-      color:rgba(255, 255, 255, 0);
+      color: rgba(168, 158, 236, 0.1);
 
       &:first-child {
         margin: 0 0.5rem 0 0;
@@ -160,7 +160,7 @@
     }
   }
 
-  @media (hover: hover) {
+  @media (hover: hover) and (pointer: fine) {
     .arrows:hover {
       -webkit-transform: scale(1.5);
       transform: scale(1.5);
