@@ -5,13 +5,20 @@
   padding-top: 76vh;
 
   &.horizontal {
-    width: 100%;
-    padding-top: 56.25%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    width: 80%;
+    max-height: 75%;
+    padding-top: 45%;
+
+    @include media("<=tablet") {
+      width: 100%;
+      padding-top: 56.25%;
+      /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    }
   }
 
   @include media("<tablet") {
     width: 100%;
+    max-width: 100%;
     padding-top: 100%;
   }
 
@@ -31,13 +38,17 @@
   position: relative;
   padding: 3rem;
 
-  @include media("<tablet") {
-    width: calc(100% - 6rem);
-  }
-
   &.horizontal {
     width: 80%;
     padding: 3rem 0;
+
+    // @include media(">tablet") {
+    //   width: 33%;
+    // }
+  }
+
+  @include media("<tablet") {
+    width: calc(100% - 6rem);
   }
 
   h2 {

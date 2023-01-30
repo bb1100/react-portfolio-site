@@ -57,6 +57,10 @@
   justify-content: center;
   text-align: left;
 
+  // &.horizontal {
+  //   flex-direction: row;
+  // }
+
   @include media("<tablet") {
     flex-direction: column;
     flex-wrap: wrap;

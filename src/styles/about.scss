@@ -52,19 +52,21 @@
 
     @include media("<desktop") {
       width: 50%;
+      height: auto;
       margin-bottom: 1.5em;
     }
 
     .about-img {
-      padding: 2px;
-      border: 4px double rgb(88, 113, 255);
       border-radius: 50%;
       width: calc(60% - 20px);
       height: auto;
-      overflow: hidden;
+      overflow: visible;
 
       img {
         width: 100%;
+        padding: 2px;
+        border-radius: 50%;
+        border: 4px double rgb(88, 113, 255);
       }
     }
   }
