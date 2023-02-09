@@ -49,6 +49,19 @@ export const yourData = {
   // Work Section ------------------------
   projects: [
     {
+      id: 9,
+      videoThumb: project10,
+      videoTitle: "Latto x Girls Who Code",
+      paragraph:
+        <>
+          <p>Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
+            young women of colour to code with JavaScript for Spark AR and take part in the design process.
+            Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.</p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/786771636?h=7e55e38721&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+      projectLink: "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Freel%2FCoabmejtY6V%2F%3Futm_source%3Dig_web_copy_link%26fbclid%3DIwAR0L4ssQKf261iZkcvRo4ZsW1jMqbYay4g2AEpA1SsixtemFyrKf7k62sZ4&h=AT10H9bWPgLKMuF1CN1Dh-HwdqrLeEkpkGo_z1loJC0ZW2_MSq9gcxzDCr7wyjcTsZhMhL2i67Zga-tzNXceq_jXK8v58hlMHNr9Qlz1hNjhiH_JpJqPgRJc-rQepWlkV7TqdT0&__tn__=-UK-R&c[0]=AT2Um7VVVhwX4BgPCDbhk5_IMX4ISrnLFpsHQmeh2P3cg5PgYPKRcqm88kWEL6-nww22ku-ft80omRgfoZLQiP0z794FluSnF8ANCTEf7CGBpGbx3GlJTUWyXAXhDXKgL5w9FzgUrVy9WbmI7vP9dFPs9iSi5MikWINdd283_UN1T5_cn2EYUNuGZTOrvuImdEV5OPwp7tvPMPyrq3Uv5TJRK-hIUQ",
+    },
+    {
       id: 0,
       videoThumb: project1,
       videoTitle: "Glamour x Willow x TikTok Cover",
@@ -150,18 +163,6 @@ export const yourData = {
 
   projects2: [
     {
-      id: 6,
-      videoThumb: project7,
-      videoTitle: "Zodiac Soulmate Quiz",
-      paragraph:
-        <>
-          <p>Pastel magic themed, Effect House challenge winning randomiser quiz on Tiktok.
-            Procedurally animated rotations and colour transition on answer reveal.</p>
-          <p>Video by lala_sadii</p>
-        </>,
-      videoSrcURL: "https://player.vimeo.com/video/775364856?h=4b9d587bd5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
-    },
-    {
       id: 7,
       videoThumb: project8,
       videoTitle: "Identity 2.0 Exhibition",
@@ -189,16 +190,16 @@ export const yourData = {
       isHorizontal: true,
     },
     {
-      id: 9,
-      videoThumb: project10,
-      videoTitle: "Latto x Girls Who Code",
+      id: 6,
+      videoThumb: project7,
+      videoTitle: "Zodiac Soulmate Quiz",
       paragraph:
         <>
-          <p>Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
-            young women of colour to code with JavaScript for Spark AR and take part in the design process.
-            Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.</p>
+          <p>Pastel magic themed, Effect House challenge winning randomiser quiz on Tiktok.
+            Procedurally animated rotations and colour transition on answer reveal.</p>
+          <p>Video by lala_sadii</p>
         </>,
-      videoSrcURL: "https://player.vimeo.com/video/786771636?h=7e55e38721&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+      videoSrcURL: "https://player.vimeo.com/video/775364856?h=4b9d587bd5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
     {
       id: 10,
