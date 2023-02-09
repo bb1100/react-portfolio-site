@@ -22,6 +22,7 @@ import project17 from "./images/work17.jpg";
 import project18 from "./images/work18.jpg";
 import project19 from "./images/work19.jpg";
 import project20 from "./images/work20.jpg";
+import project21 from "./images/work21.jpg";
 
 import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
@@ -162,6 +163,18 @@ export const yourData = {
   ],
 
   projects2: [
+    {
+      id: 20,
+      videoThumb: project21,
+      videoTitle: "Fur Slides",
+      paragraph:
+        <>
+          <p>Snapchat Lens made with FootTracking ML to erase the feet and shoes,
+            to replace them with digital fashion of a custom fur slides shoe design.
+          </p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/797185742?h=6fcf8f2130&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
+    },
     {
       id: 7,
       videoThumb: project8,
