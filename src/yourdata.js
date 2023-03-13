@@ -371,7 +371,7 @@ export const yourData = {
       img: EffectHouse,
       title: "Effect House",
       para:
-        "Early Beta Effect House Adopter. Creative Direction, Viral Effects, Visual Scripting, Asset Generation.",
+        "Top 1% of creators and early Beta adopter. Creative Direction, Viral Effects, Visual Scripting, Asset Generation.",
       // if you have a skills certificate, link to it
       url: ""
     },
@@ -380,7 +380,7 @@ export const yourData = {
       img: Unity,
       title: "Unity",
       para:
-        "Unity learning in progress...",
+        "Unity Creative Core and AR",
       // if you have a skills certificate, link to it
       url: ""
     },
