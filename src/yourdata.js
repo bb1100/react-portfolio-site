@@ -338,8 +338,18 @@ export const yourData = {
   // ----------------------------------------------------
   // About Section -------------------------
   aboutParagraph: <>
-    <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing for immersive experiences and social innovation spaces. Former Technical Artist at Meta Reality Labs working on Spark AR.</p>
-    <p>Specialities include idea development, critical thinking and project management. I continue to expand in the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning new AR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, GLSL, SparkSL, P5.js, Three.js, whilst building with Meta Spark AR, TikTok Effect House, Snap Lens Studio.</p>
+    <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing for immersive 
+      experiences and social innovation spaces. Former Technical Artist at Meta Reality Labs working on Spark AR.
+    </p>
+    <p>Specialities include idea development, critical thinking and project management. I continue to expand in 
+      the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning 
+      new XR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, 
+      GLSL, SparkSL, P5.js, Three.js, whilst building with Meta Spark AR, TikTok Effect House, Snap Lens Studio.
+    </p>
+    <p>
+      Press includes Glamour UK, Tiktok Newsroom, Techcrunch, AWE, Vidcon, Creative Lives in Progress, Lenslist.
+      Talks, judging and workshops include Meta Spark: Virtual Object Summit, Lenslist, Hacktiv8, Reskill.
+    </p>
   </>,
   aboutImage: pic,
   //   End About Section ---------------------
@@ -371,7 +381,7 @@ export const yourData = {
       img: EffectHouse,
       title: "Effect House",
       para:
-        "Top 1% of creators and early Beta adopter. Creative Direction, Viral Effects, Visual Scripting, Asset Generation.",
+        "Official Effect House Ambassador. Creative Direction, Viral Effects, Visual Scripting, Asset Generation.",
       // if you have a skills certificate, link to it
       url: ""
     },
@@ -380,7 +390,7 @@ export const yourData = {
       img: Unity,
       title: "Unity",
       para:
-        "Unity Creative Core and AR",
+        "Unity Creative Core, WebGL, AR and MR",
       // if you have a skills certificate, link to it
       url: ""
     },
@@ -389,7 +399,7 @@ export const yourData = {
       img: Unreal,
       title: "Unreal Engine",
       para:
-        "Unreal Engine 5 learning in progress...",
+        "Unreal Engine 5 Material Graph",
       // if you have a skills certificate, link to it
       url: ""
     },
