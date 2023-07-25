@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import all images and videos
-import pic from "./images/snap-avatar.jpg";
+import pic from "./images/portrait.jpg";
 import project1 from "./images/work1.jpg";
 import project2 from "./images/work2.jpg";
 import project3 from "./images/work3.jpg";
@@ -23,6 +23,7 @@ import project18 from "./images/work18.jpg";
 import project19 from "./images/work19.jpg";
 import project20 from "./images/work20.jpg";
 import project21 from "./images/work21.jpg";
+import project22 from "./images/work22.jpg";
 
 import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
@@ -50,14 +51,31 @@ export const yourData = {
   // Work Section ------------------------
   projects: [
     {
+      id: 21,
+      videoThumb: project22,
+      videoTitle: "Harmony the Hare, Coachella",
+      paragraph:
+        <>
+          <p> Created with Coachella and Meta from creative to final delivery. Harmony is the audio, spatial and 
+            time reactive sidekick who explores the festival with you. The official Discord community created an AI
+            generated image as the base for Harmony. I created design sketches and UX flows to form the colourful 
+            character concept and encourage the user to move in space to become highly immersed. The 
+            spatial understanding and interactions are built with JavaScript and audio reactive fur with SparkSL.
+            </p>
+          </>,
+      videoSrcURL: "https://youtube.com/embed/9sam7SEgEFk",
+      projectLink: "https://www.youtube.com/watch?v=PsbDnf6A0-o",
+    },
+    {
       id: 9,
       videoThumb: project10,
       videoTitle: "Latto x Girls Who Code",
       paragraph:
         <>
-          <p>Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
+          <p> Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
             young women of colour to code with JavaScript for Spark AR and take part in the design process.
-            Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.</p>
+            Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.
+          </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/786771636?h=7e55e38721&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
       projectLink: "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Freel%2FCoabmejtY6V%2F%3Futm_source%3Dig_web_copy_link%26fbclid%3DIwAR0L4ssQKf261iZkcvRo4ZsW1jMqbYay4g2AEpA1SsixtemFyrKf7k62sZ4&h=AT10H9bWPgLKMuF1CN1Dh-HwdqrLeEkpkGo_z1loJC0ZW2_MSq9gcxzDCr7wyjcTsZhMhL2i67Zga-tzNXceq_jXK8v58hlMHNr9Qlz1hNjhiH_JpJqPgRJc-rQepWlkV7TqdT0&__tn__=-UK-R&c[0]=AT2Um7VVVhwX4BgPCDbhk5_IMX4ISrnLFpsHQmeh2P3cg5PgYPKRcqm88kWEL6-nww22ku-ft80omRgfoZLQiP0z794FluSnF8ANCTEf7CGBpGbx3GlJTUWyXAXhDXKgL5w9FzgUrVy9WbmI7vP9dFPs9iSi5MikWINdd283_UN1T5_cn2EYUNuGZTOrvuImdEV5OPwp7tvPMPyrq3Uv5TJRK-hIUQ",
