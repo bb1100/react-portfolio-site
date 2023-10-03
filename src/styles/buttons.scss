@@ -16,8 +16,13 @@
     transform: scale(1.1);
   }
 }
-
 .primary-btn {
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.primary-btn a {
   letter-spacing: 0.3em;
   margin: 10px 0;
   padding: 0.5rem 1rem;
