@@ -24,6 +24,8 @@ import project19 from "./images/work19.jpg";
 import project20 from "./images/work20.jpg";
 import project21 from "./images/work21.jpg";
 import project22 from "./images/work22.jpg";
+import project23 from "./images/work23.jpg";
+import project24 from "./images/work24.jpg";
 
 import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
@@ -50,6 +52,19 @@ export const yourData = {
   // ----------------------------------------------------
   // Work Section ------------------------
   projects: [
+    {
+      id: 23,
+      videoThumb: project24,
+      videoTitle: "Elton John",
+      paragraph:
+        <>
+          <p> Effect House project for Elton John on TikTok to recreate his iconic looks from over the years, 
+            from a sequin baseball hat to muticolour star glasses as custom assets and immersive VFX. Bringing 
+            his legacy into the world of AR for fans and TikTok users to try and create videos with.
+          </p>
+        </>,
+      videoSrcURL: "https://player.vimeo.com/video/909145520?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    },
     {
       id: 21,
       videoThumb: project22,
@@ -181,6 +196,23 @@ export const yourData = {
   ],
 
   projects2: [
+    {
+      id: 22,
+      videoThumb: project23,
+      videoTitle: "Crystal Collection Game",
+      paragraph:
+        <>
+          <p>
+            A Unity3D web game created to step into a magical world and encourage 'non-traditional' gamers
+            or those interested in immersive experiences to experience a fun mini game with a magical atmosphere.
+            VFX, procedural lighting, programming with C# and node graphs along with character skeleton adjustments
+            to control the range of motion. Terrain and audio bring together the world design with classic WASD 
+            and arrow controls.
+          </p>
+          </>,
+      videoSrcURL: "https://player.vimeo.com/video/909123948?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      projectLink: "https://play.unity.com/mg/other/creative-core-game-build",
+    },
     {
       id: 20,
       videoThumb: project21,
@@ -358,6 +390,7 @@ export const yourData = {
   aboutParagraph: <>
     <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing for immersive 
       experiences and social innovation spaces. Former Technical Artist at Meta Reality Labs working on Spark AR.
+      Clients include Elton John, Nexus Studios, Universal, Meta, TikTok and Coachella.
     </p>
     <p>Specialities include idea development, critical thinking and project management. I continue to expand in 
       the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning 
@@ -381,7 +414,7 @@ export const yourData = {
       img: Spark,
       title: "Meta Spark",
       para:
-        "Official Meta Spark Community Expert. Creative direction, Asynchronous JavaScript, TypeScript, SparkSL, Optimisation and Patch Editor.",
+        "Official Meta Spark Partner. Technical Lead, Creative direction, Asynchronous JavaScript, TypeScript, SparkSL, Optimisation and Patch Editor.",
       // if you have a skills certificate, link to it
       url: ""
     },
