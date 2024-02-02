@@ -29,7 +29,7 @@ const Work = () => {
         <div className="work-wrapper">
           <Fade>
             <h1>Work</h1>
-            <p className="work-headline">A selection of Augmented Reality projects. Click on each video to see more.</p>
+            <p className="work-headline">A selection of Augmented Reality and realtime projects. Click on each video to see more.</p>
           </Fade>
           <div className="grid-container">
             <div className="arrows left" role="button" aria-label="arrow left" tabindex={0} onClick={slideLeft} onKeyDown={slideLeft}></div>
