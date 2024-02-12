@@ -450,7 +450,7 @@ export const yourData = {
       img: Unreal,
       title: "Unreal Engine",
       para:
-        "Unreal Engine 5 Material Graph",
+        "Unreal Engine 5, Scene creation, Material Graph, Lumen, Baked Lighting",
       // if you have a skills certificate, link to it
       url: ""
     },
