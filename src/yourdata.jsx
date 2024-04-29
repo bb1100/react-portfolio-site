@@ -441,7 +441,7 @@ export const yourData = {
       img: Unity,
       title: "Unity",
       para:
-        "Unity Creative Core, WebGL, AR and MR",
+        "Unity Creative Core, WebGL, Mobile AR and OpenXR",
       // if you have a skills certificate, link to it
       url: ""
     },
