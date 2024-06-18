@@ -45,7 +45,7 @@ export const yourData = {
   // * * * * * * * * * *
   // ----------------------------------------------------
   // Header Section --------------------------
-  headername: "BALRAJ AR DESIGNER",
+  headername: "BALRAJ CREATIVE TECHNOLOGIST",
   // End Header Section -----------------------
   // ----------------------------------------------------
   // * * * * * * * * * *
