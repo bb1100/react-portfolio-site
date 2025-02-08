@@ -211,7 +211,7 @@ export const yourData = {
           </p>
           </>,
       videoSrcURL: "https://player.vimeo.com/video/909123948?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-      projectLink: "https://play.unity.com/mg/other/creative-core-game-build",
+      projectLink: "https://crystalcollectiongame.netlify.app/",
     },
     {
       id: 20,
