@@ -78,8 +78,7 @@ export const yourData = {
             spatial understanding and interactions are built with JavaScript and audio reactive fur with SparkSL.
             </p>
           </>,
-      videoSrcURL: "https://youtube.com/embed/9sam7SEgEFk",
-      projectLink: "https://www.youtube.com/watch?v=PsbDnf6A0-o",
+      videoSrcURL: "https://player.vimeo.com/video/1079365814?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 9,
