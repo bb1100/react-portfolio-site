@@ -45,7 +45,7 @@ export const yourData = {
   // * * * * * * * * * *
   // ----------------------------------------------------
   // Header Section --------------------------
-  headername: "BALRAJ CREATIVE TECHNOLOGIST",
+  headername: "BALRAJ CREATIVE x TECHNOLOGIST",
   // End Header Section -----------------------
   // ----------------------------------------------------
   // * * * * * * * * * *
@@ -387,14 +387,15 @@ export const yourData = {
   // ----------------------------------------------------
   // About Section -------------------------
   aboutParagraph: <>
-    <p>Creative technologist with experience in AR, XR, HMDs, product, design, research and writing for immersive 
-      experiences and social innovation spaces. Former Technical Artist at Meta Reality Labs working on Spark AR.
-      Clients include Elton John, Nexus Studios, Universal, Meta, TikTok and Coachella.
+    <p>Immersive Director and Creative Technologist with experience in XR, wearables, product, design, research 
+      and writing for immersive experiences and social innovation spaces. Former Technical Artist at Meta Reality
+      Labs working on Spark AR. Clients include Universal, Nexus Studios, Elton John, Meta, TikTok, Coachella and more.
     </p>
-    <p>Specialities include idea development, critical thinking and project management. I continue to expand in 
-      the AR, creative and tech spaces by collaborating with creatives and engineers of vast specialities, learning 
-      new XR design processes such as Unreal Engine 5, Unity and programming with JavaScript, TypeScript, React, 
-      GLSL, SparkSL, P5.js, Three.js, whilst building with Meta Spark AR, TikTok Effect House, Snap Lens Studio.
+    <p>Specialities include creative, protoyping and delivery of industry leading projects with an interest
+        in beautiful design, intuitive UX and immersive narrative. Collaborations with creatives, production
+        and engineers of vast specialities supports exploring XR design processes such as with Unreal Engine 5, 
+        Unity, Web, 8th Wall, Lens Studio, Blender and programming with JavaScript, TypeScript, React, GLSL, P5.js, 
+        Three.js, C#.
     </p>
     <p>
       Press includes Glamour UK, Tiktok Newsroom, Techcrunch, AWE, Vidcon, Creative Lives in Progress, Lenslist.
@@ -408,15 +409,7 @@ export const yourData = {
   // ----------------------------------------------------
   // Skills Section --------------------------
   skills: [
-    {
-      // Import Icons from the top and add name here
-      img: Spark,
-      title: "Meta Spark",
-      para:
-        "Official Meta Spark Partner. Technical Lead, Creative direction, Asynchronous JavaScript, TypeScript, SparkSL, Optimisation and Patch Editor.",
-      // if you have a skills certificate, link to it
-      url: ""
-    },
+
     {
       // Import Icons from the top and add name here
       img: Lens,
@@ -440,7 +433,7 @@ export const yourData = {
       img: Unity,
       title: "Unity",
       para:
-        "Unity Creative Core, WebGL, Mobile AR and OpenXR",
+        "Unity Creative Core, Environment Design, WebGL, Mobile AR and OpenXR",
       // if you have a skills certificate, link to it
       url: ""
     },
@@ -449,7 +442,16 @@ export const yourData = {
       img: Unreal,
       title: "Unreal Engine",
       para:
-        "Unreal Engine 5, Scene creation, Material Graph, Lumen, Baked Lighting",
+        "Unreal Engine 5, Environment Design, Material Graph, Lumen, Niagara",
+      // if you have a skills certificate, link to it
+      url: ""
+    },
+        {
+      // Import Icons from the top and add name here
+      img: Spark,
+      title: "Meta Spark",
+      para:
+        "Official Meta Spark Partner. Technical Lead, Creative direction, Asynchronous JavaScript, TypeScript, SparkSL, Optimisation and Patch Editor.",
       // if you have a skills certificate, link to it
       url: ""
     },
