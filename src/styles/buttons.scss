@@ -40,16 +40,18 @@
 }
 
 .btn {
+  display: inline-block;
   margin: 10px 0;
-  padding: 0.25rem 0.5rem;
-  background-color: rgb(131, 110, 160);
+  padding: 0.8rem 1.2rem;
+  background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border: 0;
   text-decoration: none;
+    font-family: 'Bitcount Grid Double', Arial, sans-serif;
   border-radius: 0.5rem;
-
+  
   &:hover {
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.67);
     color: white;
   }
 }
