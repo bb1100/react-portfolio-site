@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Work from "./components/Work";
 import Work2 from "./components/Work2";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import Clients from "./components/Clients";
 import Promotion from "./components/Promotion";
 import Contact from "./components/Contact";
 
@@ -15,7 +15,7 @@ function App() {
       <Work />
       <Work2 />
       <About />
-      <Skills />
+      <Clients />
       <Promotion />
       <Contact />
       <div className="App"></div>

@@ -10,7 +10,7 @@ const Contact = () => {
           <Fade>
             <h1>Contact</h1>
           </Fade>
-          <h2 className="email-link"> Drop an email at <a className="email-link" href= "mailto: hello@blraj.com">hello@blraj.com</a>
+          <h2 className="email-link"> 📟 <a className="email-link" href= "mailto: hello@blraj.com">hello@blraj.com</a>
           </h2>
           
           {/* <h3>{yourData.contactSubHeading}</h3> */}

@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-section">
           <div className="content">
             <Fade>
-              <h1>About</h1>
+              <h1>Hi hi hi ʘ‿ʘ</h1>
             </Fade>
             {yourData.aboutParagraph}
 

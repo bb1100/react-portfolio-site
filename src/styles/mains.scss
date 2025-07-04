@@ -1,27 +1,30 @@
 @charset "utf-8";
-@import "./include-media.scss";
+@use "sass:meta";
+@use "include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
 
 // Atoms
-@import "./card.scss";
-@import "./video.scss";
-@import "./modal.scss";
+@include meta.load-css("card.scss");
+@include meta.load-css("video.scss");
+@include meta.load-css("modal.scss");
 
 // Components
-@import "./navbar.scss";
-@import "./header.scss";
-@import "./work.scss";
-@import "./about.scss";
-@import "./skills.scss";
-@import "./promotion.scss";
-@import "./contact.scss";
-@import "./footer.scss";
-@import "./sketch.scss";
-@import "./buttons.scss";
+@include meta.load-css("navbar.scss");
+@include meta.load-css("header.scss");
+@include meta.load-css("work.scss");
+@include meta.load-css("about.scss");
+@include meta.load-css("clients.scss");
+@include meta.load-css("skills.scss");
+@include meta.load-css("promotion.scss");
+@include meta.load-css("contact.scss");
+@include meta.load-css("footer.scss");
+@include meta.load-css("sketch.scss");
+@include meta.load-css("buttons.scss");
 
 * {
-  font-family: 'Nova Round', cursive, Arial, sans-serif;
+  font-family: 'Bitcount Grid Double', Arial, sans-serif;
 }
 
 body {
@@ -31,9 +34,7 @@ body {
   overflow-x: hidden;
   line-height: 1.5;
   background: rgb(219, 219, 240);
-  background: -moz-linear-gradient(0deg, rgba(219, 219, 240, 1) 0%, rgba(255, 245, 245, 1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(219, 219, 240, 1) 0%, rgba(255, 245, 245, 1) 100%);
-  background: linear-gradient(0deg, rgba(219, 219, 240, 1) 0%, rgba(255, 245, 245, 1) 100%);
+  background: linear-gradient(180deg,rgba(255, 247, 247, 1) 0%, rgba(212, 249, 244, 1) 54%, rgba(117, 255, 237, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dbdbf0", endColorstr="#fff5f5", GradientType=1);
 }
 
@@ -59,13 +60,13 @@ p {
 }
 
 .mobile-hide {
-  @include media("<phone", "<lgphone") {
+  @include include-media.media("<phone", "<lgphone") {
     display: none;
   }
 }
 
 .desktop-hide {
-  @include media(">=tablet", ">=desktop") {
+  @include include-media.media(">=tablet", ">=desktop") {
     display: none;
   }
 }
@@ -79,6 +80,11 @@ p {
 .link {
   font-size: 1rem;
   color: black;
+}
+
+b {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 3000%;
 }
 
 .screen-reader-text {

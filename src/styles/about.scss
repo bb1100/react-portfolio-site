@@ -1,3 +1,5 @@
+@use "include-media";
+
 .about-section {
   width: 80vw;
   padding-top: 20vh;
@@ -5,15 +7,15 @@
   justify-content: space-between;
   align-items: center;
 
-  @include media("<lgphone") {
+  @include include-media.media("<lgphone") {
     flex-direction: column-reverse;
   }
 
-  @include media(">=lgphone", "<tablet") {
+  @include include-media.media(">=lgphone", "<tablet") {
     flex-direction: column-reverse;
   }
 
-  @include media(">=tablet", "<desktop") {
+  @include include-media.media(">=tablet", "<desktop") {
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -21,7 +23,7 @@
   .content {
     width: 60%;
 
-    @include media("<desktop") {
+    @include include-media.media("<desktop") {
       width: 100%;
     }
 
@@ -29,14 +31,14 @@
       font-size: calc(1.5rem + 1vw);
       line-height: 20px;
 
-      @include media("<desktop") {
+      @include include-media.media("<desktop") {
         text-align: center;
         padding-bottom: 1rem;
       }
     }
 
     p {
-      @include media("<desktop") {
+      @include include-media.media("<desktop") {
         text-align: center;
       }
     }
@@ -50,7 +52,7 @@
     justify-content: center;
     overflow: hidden;
 
-    @include media("<desktop") {
+    @include include-media.media("<desktop") {
       width: 50%;
       height: auto;
       margin-bottom: 1.5em;

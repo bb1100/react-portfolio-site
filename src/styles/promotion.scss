@@ -1,3 +1,5 @@
+@use "include-media";
+
 .promotion-wrapper {
   width: 100vw;
   max-width: 1200px;
@@ -7,7 +9,7 @@
   flex-direction: column;
   align-items: center;
 
-  @include media(">=desktop") {
+  @include include-media.media(">=desktop") {
     margin-top: 0;
   }
 
@@ -31,7 +33,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
    
-    @include media("<tablet") {
+    @include include-media.media("<tablet") {
       grid-template-columns: repeat(2, 1fr);
     }
   }

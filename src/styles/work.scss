@@ -1,3 +1,5 @@
+@use "include-media";
+
 .work-wrapper {
   width: 100vw;
   max-width: 1600px;
@@ -7,7 +9,7 @@
   flex-direction: column;
   align-items: center;
 
-  @include media(">=desktop") {
+  @include include-media.media(">=desktop") {
     margin-top: 50px;
   }
 
@@ -44,7 +46,7 @@
     width: 90vw;
     margin: 1% 5%;
 
-    @include media("<=tablet") {
+    @include include-media.media("<=tablet") {
       margin-left: 10vw;
       margin-right: 10vw;
     }
@@ -83,7 +85,7 @@
         margin: 0 0 0 0.5rem;
       }
 
-      @include media("<=tablet") {
+      @include include-media.media("<=tablet") {
         min-width: 70%;
       }
 

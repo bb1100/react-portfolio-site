@@ -28,11 +28,11 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade>
-            <h1>Work</h1>
-            <p className="work-headline">A selection of Augmented Reality and realtime projects. Click on each video to see more.</p>
+            <h1>{yourData.workHeading}</h1>
+            <p className="work-headline">{yourData.workPara}</p>
           </Fade>
           <div className="grid-container">
-            <div className="arrows left" role="button" aria-label="arrow left" tabindex={0} onClick={slideLeft} onKeyDown={slideLeft}></div>
+            <div className="arrows left" role="button" aria-label="arrow left" tabIndex={0} onClick={slideLeft} onKeyDown={slideLeft}></div>
             <div className="grid work" id="slider">
               {yourData.projects.map((project, index) => (
                 <>

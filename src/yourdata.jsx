@@ -1,41 +1,71 @@
-import React from 'react'
+import React from 'react';
 
 // import all images and videos
 import pic from "./images/portrait.jpg";
-import project1 from "./images/work1.jpg";
-import project2 from "./images/work2.jpg";
-import project3 from "./images/work3.jpg";
-import project4 from "./images/work4.jpg";
-import project5 from "./images/work5.jpg";
-import project6 from "./images/work6.jpg";
-import project7 from "./images/work7.jpg";
-import project8 from "./images/work8.jpg";
-import project9 from "./images/work9.jpg";
-import project10 from "./images/work10.jpg";
-import project11 from "./images/work11.jpg";
-import project12 from "./images/work12.jpg";
-import project13 from "./images/work13.jpg";
-import project14 from "./images/work14.jpg";
-import project15 from "./images/work15.jpg";
-import project16 from "./images/work16.jpg";
-import project17 from "./images/work17.jpg";
-import project18 from "./images/work18.jpg";
-import project19 from "./images/work19.jpg";
-import project20 from "./images/work20.jpg";
-import project21 from "./images/work21.jpg";
-import project22 from "./images/work22.jpg";
-import project23 from "./images/work23.jpg";
-import project24 from "./images/work24.jpg";
+import project1 from "./images/work/work1.jpg";
+import project2 from "./images/work/work2.jpg";
+import project3 from "./images/work/work3.jpg";
+import project4 from "./images/work/work4.jpg";
+import project5 from "./images/work/work5.jpg";
+import project6 from "./images/work/work6.jpg";
+import project7 from "./images/work/work7.jpg";
+import project8 from "./images/work/work8.jpg";
+import project9 from "./images/work/work9.jpg";
+import project10 from "./images/work/work10.jpg";
+import project11 from "./images/work/work11.jpg";
+import project12 from "./images/work/work12.jpg";
+import project13 from "./images/work/work13.jpg";
+import project14 from "./images/work/work14.jpg";
+import project15 from "./images/work/work15.jpg";
+import project16 from "./images/work/work16.jpg";
+import project17 from "./images/work/work17.jpg";
+import project18 from "./images/work/work18.jpg";
+import project19 from "./images/work/work19.jpg";
+import project20 from "./images/work/work20.jpg";
+import project21 from "./images/work/work21.jpg";
+import project22 from "./images/work/work22.jpg";
+import project23 from "./images/work/work23.jpg";
+import project24 from "./images/work/work24.jpg";
 
 import codepen1 from "./images/codepen1.png";
 import codepen2 from "./images/codepen2.png";
 import codepen3 from "./images/codepen3.png";
 
-import Spark from "./images/icons/spark.png";
-import Lens from "./images/icons/lens.png";
-import EffectHouse from "./images/icons/effectHouse.png";
-import Unity from "./images/icons/unity.png";
-import Unreal from "./images/icons/unreal.png";
+import bbcLogo from "./images/clients/bbc.png";
+import coachellaLogo from "./images/clients/coachella.png";
+import eltonjohnLogo from "./images/clients/eltonjohn.svg";
+import gardenMuseumLogo from "./images/clients/gardenmuseum.png";
+import girlswhocodeLogo from "./images/clients/girlswhocode.png";
+import glamourLogo from "./images/clients/glamour.svg";
+import ijmLogo from "./images/clients/ijm.png";
+import instagramLogo from "./images/clients/instagram.svg";
+import maybellineLogo from "./images/clients/maybelline.png";
+import metaLogo from "./images/clients/meta.svg";
+import nexusLogo from "./images/clients/nexus.png";
+import rcaLogo from "./images/clients/rca.png";
+import royalcollegeofartLogo from "./images/clients/royalcollegeofart.png";
+import snapLogo from "./images/clients/snap.png";
+import themillLogo from "./images/clients/themill.png";
+import tiktokLogo from "./images/clients/tiktok.png";
+import universalLogo from "./images/clients/universal.png";
+
+
+// const clientModules = import.meta.glob("./images/clients/*.{png,jpg,jpeg,svg}", { 
+//   eager: true,
+//   as: 'url' // Correct - returns direct URLs
+// });
+
+// const clientMap = (modules = clientModules, keepExtensions = false) => {
+//   return Object.entries(modules).reduce((acc, [path, url]) => {  // Use 'modules' parameter
+//     const fileName = keepExtensions 
+//       ? path.split('/').pop() // 'logo.png'
+//       : path.split('/').pop().replace(/\..+$/, ''); // 'logo'
+//     acc[fileName] = url; // Correct - no .default needed with as: 'url'
+//     return acc;
+//   }, {});
+// };
+
+// const clients = clientMap;//(clientModules);
 
 
 export const yourData = {
@@ -51,6 +81,17 @@ export const yourData = {
   // * * * * * * * * * *
   // ----------------------------------------------------
   // Work Section ------------------------
+  workHeading: "Projects",
+  workPara: 
+    <>
+      <p>
+        A selection of spatial and real-time projects bringing together art 
+        and technology for unique, boundary pushing designs and builds. 
+      </p>
+      <p>
+        Click each video to see more.
+      </p>
+    </>,
   projects: [
     {
       id: 23,
@@ -58,9 +99,9 @@ export const yourData = {
       videoTitle: "Elton John",
       paragraph:
         <>
-          <p> Effect House project for Elton John on TikTok to recreate his iconic looks from over the years, 
-            from a sequin baseball hat to muticolour star glasses as custom assets and immersive VFX. Bringing 
-            his legacy into the world of AR for fans and TikTok users to try and create videos with.
+          <p>Bringing his legacy into the world of AR on TikTok for fans to try and create videos with.
+            From a sequin baseball hat to muticolour star glasses as custom 3D models, UI and VFX. 
+            Made with Effect House, Blender 3D with custom made textures, materials and interaction logic.
           </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/909145520?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -71,13 +112,14 @@ export const yourData = {
       videoTitle: "Harmony the Hare, Coachella",
       paragraph:
         <>
-          <p> Created with Coachella and Meta from creative to final delivery. Harmony is the audio, spatial and 
+          <p>Created with Coachella and Meta from creative to final delivery. Harmony is the audio, spatial and 
             time reactive sidekick who explores the festival with you. The official Discord community created an AI
-            generated image as the base for Harmony. I created design sketches and UX flows to form the colourful 
-            character concept and encourage the user to move in space to become highly immersed. The 
-            spatial understanding and interactions are built with JavaScript and audio reactive fur with SparkSL.
-            </p>
-          </>,
+            generated image as the inspiration for Harmony. I designed with concept sketches and UX flows to form the colourful 
+            character and get the user to move intuitively in their world to become highly immersed. The 
+            spatial understanding and interactions were built myself, with JavaScript and audio reactive fur
+             and refractive layered glass with GLSL.
+          </p>
+        </>,
       videoSrcURL: "https://player.vimeo.com/video/1079365814?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
@@ -86,9 +128,11 @@ export const yourData = {
       videoTitle: "Latto x Girls Who Code",
       paragraph:
         <>
-          <p> Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
-            young women of colour to code with JavaScript for Spark AR and take part in the design process.
-            Effect features makeup that adapts to lighting and a plane tracking effect for the back camera.
+          <p>Made in collaboration with Meta, Girls Who Code and RCA Records. Mentoring and training
+            young women of colour interested in STEM and music to concept, design, 
+            code with JavaScript in an AR engine and develop team skills.
+            Effect features makeup using face tracking that adapts to lighting, for the front camera 
+            and a world effect, for the back camera.
           </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/786771636?h=7e55e38721&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
@@ -97,10 +141,12 @@ export const yourData = {
     {
       id: 0,
       videoThumb: project1,
-      videoTitle: "Glamour x Willow x TikTok Cover",
+      videoTitle: "Glamour x Willow TikTok Cover",
       paragraph:
         <>
-          <p>Glamour UK TikTok cover effect made with Effect House. Inclusive makeup and procedurally animated gems.</p>
+          <p>Glamour UK digital makeup and gems cover look for TikTok. 
+          Inclusive makeup and procedurally animated 3D gems.
+          </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775340965?h=825942e541?amp;loop=1",
       projectLink: "https://www.glamourmagazine.co.uk/article/balraj-bains-interview",
@@ -111,7 +157,13 @@ export const yourData = {
       videoTitle: "Garden Museum Installation",
       paragraph:
         <>
-          <p>Plane tracking magical tree made with Meta Spark. Scripted animations and custom render pipeline poisson blurs.</p>
+          <p>Magical virtual tree for British Flowers Week. 
+            The design subverts reality with the tree growing from a leafy ceiling. 
+            Built as Augmented Reality, the magical glow intensifies as sunset hits 
+            and returns to its base state during the day.
+            Featuring scripted animations and custom render pipeline poisson blurs and 
+            a 3D custom designed and modelled tree.
+          </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775356208?h=60e613c2f4?amp;loop=1",
     },
@@ -121,7 +173,11 @@ export const yourData = {
       videoTitle: "Metal Nails",
       paragraph:
         <>
-          <p>Viral finger tracking effect in Lens Studio. Custom hand gesture creation with JavaScript. Nails designed and modelled in Blender.</p>
+          <p>Viral 3D digital art nails. 
+            Custom hand gesture developed with JavaScript. 
+            Nails designed and modelled as custom 3D models with hand painted textures. 
+            For Snapchat made with Lens Studio.
+          </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775359980?h=e74225c983?amp;loop=1",
     },
@@ -131,7 +187,9 @@ export const yourData = {
       videoTitle: "Dream Pod",
       paragraph:
         <>
-          <p>Relaxing raymarching shader with PBR world particles. Shader's shape animates to the user's Instagram track of choice. Made with Meta Spark and SparkSL.</p>
+          <p>Relaxing audio-reactive raymarching shader with PBR world particles. 
+            Shader's shape animates to the user's Instagram track of choice. 
+            Made with Meta Spark and GLSL.</p>
           <p>Video by Manuel Borrero</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775361868?h=f82d60529b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
@@ -142,7 +200,10 @@ export const yourData = {
       videoTitle: "Maybelline Lash Generator",
       paragraph:
         <>
-          <p>Multiple rounds scripted game to provide randomised mascara products and matching label, audio, makeup and immersive shaders. Tap to restart the game. Made with Meta Spark and Blender.</p>
+          <p>Multiple rounds scripted 3D game to provide randomised mascara products and 
+            matching label, audio, makeup and immersive shaders. 
+            Tap to restart the game. Made with Meta Spark and Blender.
+          </p>
           <p>Video by Panta X Rhei</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/777518332?h=04dc71f533&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
@@ -153,7 +214,10 @@ export const yourData = {
       videoTitle: "Creators Week Wearable",
       paragraph:
         <>
-          <p>Meta @Creators digital swag for the in person events week using the exclusive Instagram brand gradient for a future fashion piece. Optical flow and head movement controls mist emission. Shaders to map the gradient to the glasses.</p>
+          <p>Meta @Creators digital swag for the in person events week using 
+            the exclusive Instagram brand gradient for a future fashion piece. 
+            Optical flow and head movement controls mist emission. 
+            Visual shaders to map the gradient to the glasses.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775346908?h=af5a829f42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1",
     },
@@ -163,8 +227,15 @@ export const yourData = {
       videoTitle: "Midnight Tarot",
       paragraph:
         <>
-          <p>Winner of Lenslist's 'These Long Nights' challenge. Custom render pipeline and shader setup to create a living tarot card where the user and surrounding elements are similar to a portals experience. Card spins to reveal itself from a blurred blank background with audio to immerse the user into the storyline.
-            Crown made of particles and occluded with segmentation to maintain correct scale. Team project with Katya Pavlenko.</p>
+          <p>Winner of Lenslist's 'These Long Nights' challenge. 
+            Custom render pipeline and shader setup to create a living 
+            tarot card where the user and surrounding elements are similar 
+            to a portals experience. Card spins to reveal itself from a 
+            blurred blank background with audio to immerse the user into the storyline.
+            Crown made of particles and occluded with segmentation to 
+            maintain correct scale. 
+            Team project with Katya Pavlenko.
+          </p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/780921727?h=23696ca1c6&badge=0&autopause=0&player_id=0&app_id=58479/embed;loop=1",
     },
@@ -174,9 +245,12 @@ export const yourData = {
       videoTitle: "Too Much Mod",
       paragraph:
         <>
-          <p>Cyber character with metallic skin shader and voice distortion. Turns the user into a cyborg.
-            Detecting a change in face detection triggers electric flame mode inspired by Cyberpunk 2077 character Lizzie Wizzie.
-            3D models combined with occluders, segmentation, mapped SDF shaders and particles for spatial believability.</p>
+          <p>Cyber character with metallic skin shader and voice distortion. 
+            Turns the user into a cyborg.
+            Detecting a change in face detection triggers electric flame mode 
+            inspired by Cyberpunk 2077 character Lizzie Wizzie.
+            3D models combined with occluders, segmentation, 
+            mapped SDF shaders and particles for spatial believability.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/788520699?h=a8a8d6df0c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;loop=1",
     },
@@ -208,7 +282,7 @@ export const yourData = {
             to control the range of motion. Terrain and audio bring together the world design with classic WASD 
             and arrow controls.
           </p>
-          </>,
+        </>,
       videoSrcURL: "https://player.vimeo.com/video/909123948?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       projectLink: "https://crystalcollectiongame.netlify.app/",
     },
@@ -356,10 +430,10 @@ export const yourData = {
   // ----------------------------------------------------// * * * * * * * * * *
   // ----------------------------------------------------
   // Promotion Section -----------------------------
-  promotionHeading: "Creative Code",
+  promotionHeading: "Playground",
   promotionPara:
     <>
-      <p>Three.js and P5.js experiments.</p>
+      <p>Enter the playground, shaders are cool, so are metallic 3D ponies that roam the web.</p>
     </>,
   codepens: [
     {
@@ -387,19 +461,25 @@ export const yourData = {
   // ----------------------------------------------------
   // About Section -------------------------
   aboutParagraph: <>
-    <p>Immersive Director and Creative Technologist with experience in XR, wearables, product, design, research 
-      and writing for immersive experiences and social innovation spaces. Former Technical Artist at Meta Reality
-      Labs working on Spark AR. Clients include Universal, Nexus Studios, Elton John, Meta, TikTok, Coachella and more.
+    <p><b>Immersive Director, Multi-Disciplinary Artist and Creative Technologist</b> with experience in XR, wearables, product, design, research 
+      and writing for immersive experiences and social innovation spaces. Former Technical Artist at <b>Meta Reality
+      Labs</b> working Extended Realities. Clients include <b>Universal, Nexus Studios and more</b>.
     </p>
     <p>Specialities include creative, protoyping and delivery of industry leading projects with an interest
         in beautiful design, intuitive UX and immersive narrative. Collaborations with creatives, production
-        and engineers of vast specialities supports exploring XR design processes such as with Unreal Engine 5, 
-        Unity, Web, 8th Wall, Lens Studio, Blender and programming with JavaScript, TypeScript, React, GLSL, P5.js, 
-        Three.js, C#.
+        and engineers of vast specialities supports exploring spatial design processes. 
+        
+        Platforms and tools include 
+        <b> Unreal Engine 5, Unity 3D, RealityKit, Reality Composer Pro,
+        Web, 3D Web, WebXR, A-Frame, 8th Wall, P5, TouchDesigner, 
+        3D direction, Blender, Maya, ZBrush, Substance Suite,
+        GLSL, C#, JavaScript, TypeScript, React.</b>
     </p>
     <p>
-      Press includes Glamour UK, Tiktok Newsroom, Techcrunch, AWE, Vidcon, Creative Lives in Progress, Lenslist.
-      Talks, judging and workshops include Meta Spark: Virtual Object Summit, Lenslist, Hacktiv8, Reskill.
+      Press includes <b> BBC, Glamour UK, Tiktok Newsroom, Meta, Techcrunch, 
+      AWE, VidCon, Creative Lives in Progress, Lenslist. </b>
+      Talks, judging and workshops include 
+      <b> Somerset House, Royal Collage of Art, Meta, Snap, Lenslist, Hacktiv8, Reskill.</b>
     </p>
   </>,
   aboutImage: pic,
@@ -409,54 +489,136 @@ export const yourData = {
   // ----------------------------------------------------
   // Skills Section --------------------------
   skills: [
-
-    {
+      {
       // Import Icons from the top and add name here
-      img: Lens,
-      title: "Lens Studio",
-      para:
-        "Official Snap Lens Network Creator. Creative Direction, JavaScript, Visual Scripting, Material Editor, VFX.",
-      // if you have a skills certificate, link to it
-      url: ""
-    },
-    {
-      // Import Icons from the top and add name here
-      img: EffectHouse,
-      title: "Effect House",
-      para:
-        "Official Effect House Ambassador. Creative Direction, Viral Effects, Visual Scripting, Asset Generation.",
-      // if you have a skills certificate, link to it
-      url: ""
-    },
-    {
-      // Import Icons from the top and add name here
-      img: Unity,
-      title: "Unity",
-      para:
-        "Unity Creative Core, Environment Design, WebGL, Mobile AR and OpenXR",
-      // if you have a skills certificate, link to it
-      url: ""
-    },
-    {
-      // Import Icons from the top and add name here
-      img: Unreal,
-      title: "Unreal Engine",
-      para:
-        "Unreal Engine 5, Environment Design, Material Graph, Lumen, Niagara",
-      // if you have a skills certificate, link to it
-      url: ""
-    },
-        {
-      // Import Icons from the top and add name here
-      img: Spark,
-      title: "Meta Spark",
-      para:
-        "Official Meta Spark Partner. Technical Lead, Creative direction, Asynchronous JavaScript, TypeScript, SparkSL, Optimisation and Patch Editor.",
+      img: "",
+      title: "",
+      para: "",
       // if you have a skills certificate, link to it
       url: ""
     },
   ],
-  // End Skills Section --------------------------
+  // End Skills Section ---------------------
+  // ----------------------------------------------------
+  // * * * * * * * * * *
+  // ----------------------------------------------------
+  // Clients Section --------------------------
+
+  clients: [
+    {
+      // Import Icons from the top and add name here
+      img: universalLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: instagramLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: metaLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: bbcLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: snapLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: rcaLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: nexusLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: royalcollegeofartLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: tiktokLogo,
+      title: "",
+      para: "",
+      url: ""
+    },    
+    {
+      // Import Icons from the top and add name here
+      img: ijmLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: eltonjohnLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: themillLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: glamourLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: gardenMuseumLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: girlswhocodeLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+    {
+      // Import Icons from the top and add name here
+      img: coachellaLogo,
+      title: "",
+      para: "",
+      url: ""
+    },
+  ],
+  // End Clients Section --------------------------
   // ----------------------------------------------------
   // * * * * * * * * * *
   // ----------------------------------------------------
@@ -499,7 +661,7 @@ export const yourData = {
   // Footer Section --------------------------
   name: "Balraj Bains",
   footerlink: "https://balrajbains.wixsite.com/blraj",
-  footerlabel: "[See creative archive here]"
+  footerlabel: "[creative archive]"
   // End Footer Section -----------------------
   // ----------------------------------------------------
 }
