@@ -6,8 +6,13 @@ import About from "./components/About";
 import Clients from "./components/Clients";
 import Promotion from "./components/Promotion";
 import Contact from "./components/Contact";
+import CrystalCollectionGame from "./CrystalCollectionGame";
 
 function App() {
+  if (window.location.pathname === "/crystalcollectiongame") {
+    return <CrystalCollectionGame />;
+  }
+  
   return (
     <>
       <Header />
