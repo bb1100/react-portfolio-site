@@ -275,17 +275,23 @@ export const yourData = {
       videoTitle: "Crystal Collection Game",
       paragraph:
         <>
-          <p>
-            A Unity3D web game created to step into a magical world and encourage 'non-traditional' gamers
-            or those interested in immersive experiences to experience a fun mini game with a magical atmosphere.
-            VFX, procedural lighting, programming with C# and node graphs along with character skeleton adjustments
-            to control the range of motion. Terrain and audio bring together the world design with classic WASD 
-            and arrow controls.
-          </p>
+          <h3>A Cozy, Atmospheric Web Explorer</h3>
+          <p><strong>Role:</strong> Creator (Design &amp; Dev) | <strong>Tech:</strong> Unity3D, C#, WebGL, URP, Shader Graph, HLSL, AI Tools, Blender</p>
+
+          <h4>The Vision (Creative Leadership)</h4>
+          <p>Inspired by the soft escape of the night, magic, and 2000s childhood film and TV, I designed a welcoming, low-stress mini-game aimed at <strong>non-traditional gamers</strong>. This is a space for players seeking immersive, magical atmospheres where they can take a breath to dream.</p>
+          <p>By shifting the focus to deep <strong>world-building</strong>, removing punishing "game over" loops, and leaning into rich environmental storytelling, I created an accessible web experience that prioritizes player <strong>curiosity</strong> and safety.</p>
+
+          <h4>The Execution (Tech Skills)</h4>
+          <ul>
+            <p><strong>Procedural Lighting &amp; VFX:</strong> Leveraged Unity's URP, node-based graphs, and custom HLSL to build dynamic, bioluminescent lighting that breathes as the player explores.</p>
+            <p><strong>Character &amp; Motion Control:</strong> Scripted custom character skeleton adjustments in C# to regulate the avatar's range of motion, creating a smoother, more deliberate physical presence.</p>
+            <p><strong>Environment &amp; Audio:</strong> Formed custom terrain design integrated with a mouse-aimed lantern mechanic and adaptive ambient audio to evoke a classic, nostalgic Y2K web game experience.</p>
+          </ul>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/909123948?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-      //projectLink: "https://crystalcollectiongame.netlify.app/",
-      projectLink: "/crystalcollectiongame",
+      //projectLink: "https://crystalcollectiongame.netlify.app/", // For direct netlify url
+      projectLink: "/crystalcollectiongame", // now connected to subpage via CrystalCollectionGame.jsx
     
     },
     {
