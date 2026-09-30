@@ -62,6 +62,7 @@ const Work2 = () => {
               videoSrcURL={project.videoSrcURL}
               projectLink={project.projectLink}
               isHorizontal={project.isHorizontal}
+              layout={project.layout}
             />}
         </>
       ))}

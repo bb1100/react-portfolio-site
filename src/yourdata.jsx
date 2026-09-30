@@ -292,6 +292,8 @@ export const yourData = {
       videoSrcURL: "https://player.vimeo.com/video/909123948?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       //projectLink: "https://crystalcollectiongame.netlify.app/", // For direct netlify url
       projectLink: "/crystalcollectiongame", // now connected to subpage via CrystalCollectionGame.jsx
+      isHorizontal: true,
+      layout: "stacked",
     
     },
     {
@@ -332,6 +334,7 @@ export const yourData = {
       videoSrcURL: "https://www.youtube.com/embed/XpSJE1CNXMo",
       projectLink: "https://messengernews.fb.com/2021/12/14/play-heads-up-with-your-friends-on-instagram-and-messenger/",
       isHorizontal: true,
+      layout: "stacked",
     },
     {
       id: 6,

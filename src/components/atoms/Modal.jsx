@@ -1,7 +1,7 @@
 import React from 'react';
 import Video from "./Video";
 
-const Modal = ({ hide, videoSrcURL, videoTitle, paragraph, projectLink, modalClass, ariaAttr, isHorizontal }) => {
+const Modal = ({ hide, videoSrcURL, videoTitle, paragraph, projectLink, modalClass, ariaAttr, isHorizontal, layout }) => {
   return (
     <>
       <div className={`modal-overlay ${modalClass}`} aria-hidden="true" />
@@ -12,7 +12,7 @@ const Modal = ({ hide, videoSrcURL, videoTitle, paragraph, projectLink, modalCla
               <span aria-hidden="true">&#x2715;</span>
             </button>
           </div>
-          <div className={`modal-content ${isHorizontal ? 'one-column' : ''}`}>
+          <div className={`modal-content ${layout === 'stacked' ? 'stacked' : ''}`}>
             <Video
               videoTitle={videoTitle}
               paragraph={paragraph}

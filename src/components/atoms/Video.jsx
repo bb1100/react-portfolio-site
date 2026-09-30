@@ -19,7 +19,7 @@ const Video = ({ videoSrcURL, videoTitle, paragraph, projectLink, isHorizontal }
           allowFullScreen
         />
       </div>
-      <div className={`video-content ${isHorizontal ? 'horizontal' : ''}`}>
+      <div className="video-content">
         <h2 className="header">{videoTitle}</h2>
         {paragraph}
         {projectLink ?
