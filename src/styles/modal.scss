@@ -59,6 +59,12 @@
   justify-content: center;
   text-align: left;
 
+  li {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    font-kerning: auto;
+  }
+
   // &.horizontal {
   //   flex-direction: row;
   // }

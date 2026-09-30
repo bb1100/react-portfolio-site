@@ -275,7 +275,7 @@ export const yourData = {
       videoTitle: "Crystal Collection Game",
       paragraph:
         <>
-          <h3>A Cozy, Atmospheric Web Explorer</h3>
+          <h3>A Cozy, Atmospheric Desktop Web Explorer</h3>
           <p><strong>Role:</strong> Creator (Design &amp; Dev) | <strong>Tech:</strong> Unity3D, C#, WebGL, URP, Shader Graph, HLSL, AI Tools, Blender</p>
 
           <h4>The Vision (Creative Leadership)</h4>
@@ -284,10 +284,11 @@ export const yourData = {
 
           <h4>The Execution (Tech Skills)</h4>
           <ul>
-            <p><strong>Procedural Lighting &amp; VFX:</strong> Leveraged Unity's URP, node-based graphs, and custom HLSL to build dynamic, bioluminescent lighting that breathes as the player explores.</p>
-            <p><strong>Character &amp; Motion Control:</strong> Scripted custom character skeleton adjustments in C# to regulate the avatar's range of motion, creating a smoother, more deliberate physical presence.</p>
-            <p><strong>Environment &amp; Audio:</strong> Formed custom terrain design integrated with a mouse-aimed lantern mechanic and adaptive ambient audio to evoke a classic, nostalgic Y2K web game experience.</p>
+            <li><strong>Procedural Lighting &amp; VFX:</strong> Leveraged Unity's URP, node-based graphs, and custom HLSL to build dynamic, bioluminescent lighting that breathes as the player explores.</li>
+            <li><strong>Character &amp; Motion Control:</strong> Scripted custom character skeleton adjustments in C# to regulate the avatar's range of motion, creating a smoother, more deliberate physical presence.</li>
+            <li><strong>Environment &amp; Audio:</strong> Formed custom terrain design integrated with a mouse-aimed lantern mechanic and adaptive ambient audio to evoke a classic, nostalgic Y2K web game experience.</li>
           </ul>
+          <p>Play in desktop browser, allow some time for loading.</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/909123948?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       //projectLink: "https://crystalcollectiongame.netlify.app/", // For direct netlify url
